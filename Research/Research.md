@@ -107,6 +107,10 @@
 * [Intel's Core i9-9900K CPU reviewed (techreport.com)](https://techreport.com/review/34192/intel-core-i9-9900k-cpu-reviewed)
 
 
+## Message Signaled Interrupts
+* [Message Signaled Interrupts in PCI/PCIE : Advantages over INTx (blog.sasken.com)](https://blog.sasken.com/message-signaled-interrupts-in-pcipcie-advantages-over-intx)
+
+
 ## Programs
 
 ### Frametime capture and analysis tool
@@ -117,7 +121,7 @@
 * [Pixelclock calculator (monitortests.com)](https://www.monitortests.com/pixelclock.php)
 
 ### nVidia Driver adjustment programs
-* [nVidia Inspector (download.orbmu2k.de)](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
+* [nVidia Inspector (download.orbmu2k.de)](http://download.orbmu2k.de/files/nvidiaInspector.zip) + [source code](https://github.com/Orbmu2k/nvidiaProfileInspector) (latest final version) + [Latest beta](https://ci.appveyor.com/project/Orbmu2k/nvidiaprofileinspector)
 * [NV RGBFullRangeToggle (blog.metaclassofnil.com)](http://blog.metaclassofnil.com/wp-content/uploads/2012/08/NV_RGBFullRangeToggle.zip) Use this tool if you don't see any 'Output dynamic range' option in the NVCP.
 
 ### Driver Uninstaller programs
