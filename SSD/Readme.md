@@ -1,3 +1,9 @@
+### SSD/NVMe driver performance
+
+[Samsung](https://www.samsung.com/semiconductor/minisite/ssd/download/tools/) as well as others vendors provide their own drivers for e.g. NVMe. The question is if Samsung drivers are _better_ than the once provided by Microsoft itself (_stock drivers_). The answer is, [no, there is no benefit in installing third-party drivers from Samung & Co anymore](https://twitter.com/KoroushGhazi/status/1242717122490298368).
+
+The problem seems that after specific KB or an in-place upgrade MS replaces automatically (without that you get a noticie or warning) the third-party driver automatically. The drivers itself (MS vs. Samsung) are performance wise almost identical, MS recently showed (_based on user benchmarks_) that they are even better than the Samsung provided ones. We can assume that Samsung works close with MS together, since their drivers are typically never offered by Windows Update (_you must manually download them from the Samsung page and install them_).
+
 ### SSD
 
 Setting `fsutil behavior set disablelastaccess 1` still needs to be set manually. There is research on this available [here](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search).
