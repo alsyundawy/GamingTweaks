@@ -4,7 +4,7 @@ This is a small community based "Gaming hardware buyer's guide", which will be u
 
 This guide (explicitly and on purpose) does not direct link to vendors or reseller websites, because we believe everyone should decide and buy hardware from his/her favorite platform.
 
-This guide **does not** follow the "just because you#re a gamer you can waste your money" principle. The most expensive hardware is not always the best nor can some gamers effort to buy each time a vendor releases new hardware to buy something new.
+This guide **does not** follow the "just because you're a gamer you can waste your money" principle. The most expensive hardware is not always the best nor can some gamers effort to buy each time a vendor releases new hardware to buy something new.
 
 
 This recommendations are totally un-biased and the listed hardware, is listed based on:
