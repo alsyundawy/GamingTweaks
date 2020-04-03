@@ -196,14 +196,15 @@ Please keep in mind:
 
 | Category         |          Suggestion           |                      Brand Suggestion |
 | ---------------- | :---------------------------: | ------------------------------------: |
-| Up to 150€       |       AMD Radeon RX 570       |         Asus Radeon RX 570 Expedition |
-| Up to 200€       |       AMD Radeon RX 590       |          Sapphire Radeon RX 590 Nitro |
-| Up to 250€       |     Nvidia GeForce GTX 1660 Super     |    MSI GeForce GTX 1660 Super Ventus OC |
+| Up to 150€       |       AMD Radeon RX 570       |         Asus Radeon RX 570 RS XXX Edition |
+| Up to 200€       |       AMD Radeon RX 580       |          Sapphire Radeon RX 580 Pulse |
+| Up to 250€       |     Nvidia GeForce GTX 1660 Super     |    Palit GeForce GTX 1660 Super GP |
+| 250€ - 300€       |     AMD Radeon RX 5600 XT     |    Sapphire Radeon RX 5600 XT Pulse|
 | 250€ to 400€       |     AMD Radeon RX 5600 XT    |     Sapphire Radeon RX 5600 XT Pulse |  
-| Up to 400€       | AMD Radeon RX 5700 XT         |    [XFX Radeon RX 5700 XT THICCII](https://www.reddit.com/r/hardware/comments/dprhht/techpowerup_xfx_radeon_rx_5700_xt_thicc_iii_ultra/) |
-| Up to 600€       |    Nvidia GeForce RTX 2070 Super    |       MSI GeForce RTX 2080 Super Ventus XS OC |
-| Up to 800€       |    Nvidia GeForce RTX 2080 Super    |       Palit GeForce RTX 2080 Super GR |
-| 800€ (or higher) |  Nvidia GeForce RTX 2080 Ti   | Asus GeForce RTX 2080 Ti Strix Advanced |
+| Up to 400€       | AMD Radeon RX 5700 XT         |    XFX Radeon RX Vega 5700 XT THICC II Ultra |
+| Up to 600€       |    Nvidia GeForce RTX 2070 Super    |       Gigabyte GeForce RTX 2070 Super Gaming OC |
+| Up to 800€       |    Nvidia GeForce RTX 2080 Super    |       MSI GeForce RTX 2080 Super Gaming X Trio |
+| 800€ (or higher) |  Nvidia GeForce RTX 2080 Ti   | Gainward GeForce RTX 2080 Ti Phoenix GS |
 
 
 
