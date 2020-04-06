@@ -255,10 +255,12 @@ Please keep in mind:
 
 ### Last Updated
 
-* `13.01.2020`
+* `06.04.2020`
 
 
 ### Change log
+- 06.04.2020: CPU chart updated
+- 05.04.2020: GPU chart updated
 - 18.01.2020: Samsung B-Die DDR 4 memory kits finder added
 - 13.01.2020: Added Wifi-6 gaming routers, corrected some wrong typos and values in the RAM section
 - 07.01.2020: Added Threadripper 3990X (_HEDT_)
