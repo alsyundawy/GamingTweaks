@@ -7,7 +7,7 @@ This guide (explicitly and on purpose) does not direct link to vendors or resell
 This guide **does not** follow the "just because you're a gamer you can waste your money" principle. The most expensive hardware is not always the best nor can some gamers effort to buy each time a vendor releases new hardware to buy something new.
 
 
-This recommendations are totally un-biased and the listed hardware, is listed based on:
+This recommendations are totally unbiased and the listed hardware, is listed based on:
 
 * Community based tests
 * Hardware specifications
@@ -213,11 +213,11 @@ Please keep in mind:
 | Category                                  |                  Suggestion                  |                                   Notice or alternative |
 | ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
 | Luxury                                    |          Intel Core i9-9900K or KS           | Security holes but overall "best for gaming" (IPC/perf) |
-| Luxury alternative                        |    AMD Ryzen 9 3900X / AMD Ryzen 9 3950X     |                                                  ~578 € |
-| Middle class (best price per performance) | Intel Core i7-9700(K/F) or AMD Ryzen 7 3700X |                                       AMD Ryzen 7 3700X |
+| Middle class (_best price per performance_) | Intel Core i7-9700(K/F) or AMD Ryzen 7 3700X |                                       AMD Ryzen 7 3700X |
 | Middle                                    |               AMD Ryzen 5 3600               |                                     Intel Core i5-9400F |
-| Cheap middle                              |               AMD Athlon 3000G               |             The minimum if you want to get into gaming! |
-| iGPU                                      |          AMD Ryzen 3 2200G / 3200 G          |                                            ~ 80 / € 93€ |
+| Cheap middle                              |               AMD Athlon 3000G/Intel Core i5-9400F               |             The minimum if you want to get into gaming! |
+| Cheap                               |               Intel Core i3-9100F               |             The minimum if you want to get into gaming! |
+| iGPU                                      |          AMD Ryzen 5 1600 (12 nm)         |                                            ~ 80 / € 93€ |
 | HEDT                                      |         AMD Ryzen Threadripper 3960X         |                                               ~ 2.195 € |
 | HEDT alternative | Threadripper 3990X / 3970X  | 
 
