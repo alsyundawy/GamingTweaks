@@ -7,7 +7,7 @@ This guide (explicitly and on purpose) does not direct link to vendors or resell
 This guide **does not** follow the "just because you're a gamer you can waste your money" principle. The most expensive hardware is not always the best nor can some gamers effort to buy each time a vendor releases new hardware to buy something new.
 
 
-This recommendations are totally unbiased and the listed hardware, is listed based on:
+The recommendations are totally unbiased and the listed hardware, is listed based on:
 
 * Community based tests
 * Hardware specifications
@@ -183,8 +183,8 @@ A typically "Gamer PC" does not need more than ~500-600W - I explicitly mention 
 | Up to 45€        |  be quiet! System Power 9 400W   |                                                                                             Xilence Performance A+ 430W / 530W |
 | Up to 55€        |   be quiet! Pure Power 11 400W   |                                                                                                  Cooler Master MasterWatt 450W |
 | Up to 70€        | be quiet! Pure Power 11 500W CM  |                                             Corsair Vengeance 550M or BitFenix Formula Gold 450W or Xilence Performance X 550W |
-| Up to 85€        |  Sea Sonic Focus Plus Gold 550W  |                            Enermax Revolution X't II 550W, BitFenix Whisper M 450W, Corsair TX550M, BitFenix Formula Gold 550W |
-| Up to 110€       | be quiet! Straight Power 11 550W |                                         Enermax Platimax D.F. 500W, Corsair RM550x, EVGA Supernova G3 550W, Cooler Master V550 |
+| Up to 85€        |  Sea Sonic Focus Plus Gold 550W  |                            Enermax Revolution X't II 550W, BitFenix Whisper M 450W, Corsair TX550M, BitFenix Formula Gold 550W or Super Flower Leadex III Gold 550W |
+| Up to 110€       | be quiet! Straight Power 11 550W |                                         Enermax Platimax D.F. 500W, Corsair RM550x, EVGA Supernova G3 550W, Cooler Master V550 or Corsair RM650 |
 | 110€ (or higher) |          Corsair AX850           | Asus ROG Thor 850P, be quiet! Dark Power Pro 11 550W, Enermax MaxTytan 750W, Aerocool P7-650W, Corsair HX750 or Corsair HX750i |
 
 
