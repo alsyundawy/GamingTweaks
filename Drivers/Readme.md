@@ -25,13 +25,23 @@
 
 ## Chipset driver update myth
 
-You [do not need to install any chipset driver unless you see a yellow triangle](https://www.win-raid.com/t895f42-Intel-Chipset-Device-quot-Drivers-quot-INF-files.html) in device manager. Windows Update usually then kicks in and offers you the correct version. There is (_in normal situations_) no benefit in using an updated chipset drivers because if you [inspect the changelog](https://downloadmirror.intel.com/29227/eng/10.1.18228.8176_3.1.7.118_public.pdf) you will notice that newer chipset driver versions often only adding new products they typically never "fix" something.
+You [do not need to install any Intel chipset driver unless you see a yellow triangle](https://www.win-raid.com/t895f42-Intel-Chipset-Device-quot-Drivers-quot-INF-files.html) in device manager. Windows Update usually then kicks in and offers you the correct version. There is (_in normal situations_) no benefit in using an updated chipset drivers because if you [inspect the changelog](https://downloadmirror.intel.com/29227/eng/10.1.18228.8176_3.1.7.118_public.pdf) you will notice that newer chipset driver versions often only adding new products they typically never "fix" something.
+
+**In case you get AMD Chipset driver problems**
+
+The Windows AMD Chipset driver installer is known to be problematic and in case you get problems you can submit these logs directly to AMD [via eMail ticket](https://www.amd.com/en/support/contact-email-form).
+
+**AMD Chipset driver debug logs**
+* `%userprofile%\AMD_Chipset_IODrivers.Log`
+* `%userprofile%\Device_ID.log`
+* `c:\windows\inf\setupapi.dev`
+* `c:\windows\inf\setupapi.log`
+* `c:\windows\dpinst.log`
 
 #### Best practice
 * If you see no yellow triangle in Windows device manager (_unknown device or error codes_) do not install any chipset driver.
 * If Windows Update offers you the driver then you're good to go, just install it and reboot.
 * Monitor the changelogs from AMD and Intel for platform specific changes, if you see new chipset driver versions just do not blindly download them, instead check if the changelog mention some improvements (_they never do_).
-
 
 
 ## nVidia Driver update procedure
