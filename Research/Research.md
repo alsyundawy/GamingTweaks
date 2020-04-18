@@ -25,6 +25,7 @@
 * [PhysX](#physx)
 * [Audio Latency in Windows](#audio-latency-in-windows)
 * [For Developers](#for-developers)
+* [RAID](#raid)
 * [Driver & Firmware Resources](#driver--firmware-resources)
 * [Legendary RAM OC Guides](#legendary-ram-oc-guides)
 * [Comprehensive AMD Ryzen Memory & OC articles](#comprehensive-amd-ryzen-memory--oc-articles)
@@ -214,6 +215,10 @@
 * [Scheduling Priorities (docs.microsoft.com)](https://docs.microsoft.com/en-us/windows/win32/procthread/scheduling-priorities?redirectedfrom=MSDN)
 
 
+## RAID
+* [Understanding RAID: How performance scales from one disk to eight (arstechnica.com)](https://arstechnica.com/information-technology/2020/04/understanding-raid-how-performance-scales-from-one-disk-to-eight/)
+
+
 ## Driver & Firmware Resources
 * [8BitDo Firmware page (support.8bitdo.com)](http://support.8bitdo.com/)
 * [Station-Drivers (station-drivers.com)](http://www.station-drivers.com/)
@@ -251,7 +256,6 @@
 
 ## AMD (AGESA) BIOS overview & download links
 * [AMD AGESA Bios collections thread (computerbase.de)](https://www.computerbase.de/forum/threads/sammelthread-amd-agesa-uebersicht-aller-bios-versionen.1902983/) - Overview of all AGESA BIOS updates, the website is in german but it's easy to understand, jutst follow your vendor and mobo and check if there is a link on the right side of the chart or not.
-
 
 ## Controller guides
 - [Connect the Nintendo Switch Pro Controller to Windows](https://www.gameaccesory.com/post/how-to-connect-your-pro-controller-to-your-pc-infographic)
