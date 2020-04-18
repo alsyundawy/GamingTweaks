@@ -1,3 +1,28 @@
+* [Known Myths](#known-myths)
+  * [Overview](#overview)
+  * [Criticism](#criticism)
+* [NTFS tunneling tweak](#ntfs-tunneling-tweak)
+* [Enabling the NtfsDisableLastAccessUpdate registry value helps to improve e.g. backup job performance](#enabling-the-ntfsdisablelastaccessupdate-registry-value-helps-to-improve-eg-backup-job-performance)
+* [Firmware updates are bad for gaming performance](#firmware-updates-are-bad-for-gaming-performance)
+* [Enabling Game Mode will cause stuttering and performance problems](#enabling-game-mode-will-cause-stuttering-and-performance-problems)
+* [Disable Drive Indexing (Windows Search) should be turned off](#disable-drive-indexing-windows-search-should-be-turned-off)
+* [Configure “Fragment and Optimize your device”](#configure-fragment-and-optimize-your-device)
+* [Set your SATA controller to AHCI mode for Solid State Drives SSD](#set-your-sata-controller-to-ahci-mode-for-solid-state-drives-ssd)
+* [Page file (page file/ paging file) Managing, should be disabled because it _constantly_ writes on your SSD](#page-file-page-file-paging-file-managing-should-be-disabled-because-it-constantly-writes-on-your-ssd)
+* [Disabling Windows own restore point feature helps to improve overall gaming performance](#disabling-windows-own-restore-point-feature-helps-to-improve-overall-gaming-performance)
+* [Disable Hibernate](#disable-hibernate)
+* [Disable SuperFetch](#disable-superfetch)
+* [NIC System.ini IRQ Tweak](#nic-systemini-irq-tweak)
+* [System Responsiveness](#system-responsiveness)
+* [Disabling C states in BIOS improves SSD performance.](#disabling-c-states-in-bios-improves-ssd-performance)
+* [Disabling Windows animations to improve GPU or CPU performance](#disabling-windows-animations-to-improve-gpu-or-cpu-performance)
+* [Disable High Precision Event Timer (HPET)](#disable-high-precision-event-timer-hpet)
+* [Using an older Windows 10 versions helps to improve the OS performance because 3,5 MHZ vs 10 Mhz QPC timer?](#using-an-older-windows-10-versions-helps-to-improve-the-os-performance-because-35-mhz-vs-10-mhz-qpc-timer)
+* [Encrypting the OS partition (whole OS) affects gaming performance](#encrypting-the-os-partition-whole-os-affects-gaming-performance)
+* [Disable Eagle’s Algorithm](#disable-eagles-algorithm)
+* [Turn on Readiest](#turn-on-readiest)
+* [CPU core affinity performance/fps fixes](#cpu-core-affinity-performancefps-fixes)
+
 ### Known Myths
 
 #### Overview

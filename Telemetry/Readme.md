@@ -1,3 +1,7 @@
+* [Integrated Telemetry into games (e.g. DRM, Redshell & Co.) and Game Clients](#integrated-telemetry-into-games-eg-drm-redshell--co-and-game-clients)
+* [My advice in general is:](#my-advice-in-general-is)
+* [In which cases Telemetry has no impact on the OS or gaming performance](#in-which-cases-telemetry-has-no-impact-on-the-os-or-gaming-performance)
+
 ### Integrated Telemetry into games (e.g. DRM, Redshell & Co.) and Game Clients
 
 Some games (not all) including copyright systems like Denuvo (DRM) checks or [Redshell](https://docs.google.com/spreadsheets/d/e/2PACX-1vQz1d2jf15nHZE8GaRDAWCVMWuYkhip_cwkDUD3fo9dn0EiDRG3crtNXNhPESz8ZLL2KVDULnm9D-VB/pubhtml) in order to spy & log the gamers activity which has an negative impact of the game performance itself ([longer loading times](https://www.youtube.com/watch?v=ByfLg9wGB4o), FPS drops or even crashes). A filter-list to prevent such stuff can be found [here](https://github.com/CHEF-KOCH/CKs-FilterList).
@@ -7,7 +11,7 @@ Keep in mind that [telemetry](https://en.wikipedia.org/wiki/Telemetry) has (in n
 The biggest impact on the game performance itself is done by the copyright-protection system and its implementation and _can have_ a negative impact which results in longer loading times or _small_ FPS drops. The rumour that Denuvo cripples your performance is not _entirely_ true, it's depending on several factors in most cases you [lose around 2-3 FPS](https://www.extremetech.com/gaming/282924-denuvo-really-does-cripple-pc-gaming-performance) (which is considerable not "crippled" - depending how you see it).
 
 
-#### My advice in general is:
+### My advice in general is:
 
 - Use [GOG](https://www.gog.com/) releases because they are DRM free, some Epic Game Store and Steam Store Games are also DRM free but the Client itself is not.
 - Play cracked versions (_possible malware risk_) or emulate them in a VM/Wine/Sandbbox. You still can support the game developer by buying the game, just don't install it via _official ways_.
@@ -16,7 +20,7 @@ The biggest impact on the game performance itself is done by the copyright-prote
 - Manually removing the analytics code requires to manipulate the game client and it's files and is _dangerous_ because that might result in a ban, the game client should provide an opt-out toggle for such tracking. A better method is to block the request with a firewall/hosts file.
 
 
-## In which cases Telemetry has no impact on the OS or gaming performance
+### In which cases Telemetry has no impact on the OS or gaming performance
 
 - Depending how well it was [implemented (example)](https://github.com/matthewhorridge/telemetry), telemetry (the running processes) never uses much resources (_depending how you define "much"_).
 - Telemetry can run in the background or even without user consent, the best scenario would be if you can [manually control it opt-in/opt-out](https://blogs.windows.com/buildingapps/2014/03/20/instrumenting-your-app-for-telemetry-and-analytics/) and submit only telemetry when you want it

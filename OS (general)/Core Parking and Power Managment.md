@@ -1,6 +1,20 @@
+* [Why is Core Parking disabled in Windows 10?](#why-is-core-parking-disabled-in-windows-10)
+  * [Should I tweak the current Core Parking situation under Windows 10?](#should-i-tweak-the-current-core-parking-situation-under-windows-10)
+  * [Hidden Registry command](#hidden-registry-command)
+    * [Benchmark examples](#benchmark-examples)
+    * [Power Plans (profiles) & Power Scheme](#power-plans-profiles--power-scheme)
+  * [Processor Power Management States](#processor-power-management-states)
+  * [Working with PowerCfr & Windows 10 Power GUI](#working-with-powercfr--windows-10-power-gui)
+* [Reference](#reference)
+  * [Microsoft](#microsoft)
+  * [Intel](#intel)
+  * [AMD](#amd)
+  * [Wikipedia](#wikipedia)
+  * [Programs](#programs)
+
 ## Why is Core Parking disabled in Windows 10?
 
-Microsoft officially states that "[Core Parking is most effective on systems that have processor idle states with extremely low power consumption](https://msdn.microsoft.com/en-us/ie/dn613899%28v=vs.100%29?f=255&MSPPError=-2147217396)", while [some websites claim that enabling core parking positley influence the Gaming performance](https://windows10gadgets.pro/tipstricks/coreparking.html) (higher FPS) and also showing more "benchmark points" in syntehical benchmarks.
+Microsoft officially states that "[Core Parking is most effective on systems that have processor idle states with extremely low power consumption](https://msdn.microsoft.com/en-us/ie/dn613899%28v=vs.100%29?f=255&MSPPError=-2147217396)", while [some websites claim that enabling core parking positley influence the Gaming performance](https://windows10gadgets.pro/tipstricks/coreparking.html) (higher FPS) and also showing more "benchmark points" in synthetic benchmarks.
 
 While some users argue over the benefits of core parking, [Microsoft have chosen to leave the choice of core parking up to the vendors](https://community.amd.com/community/gaming/blog/2017/04/06/amd-ryzen-community-update-3), as they can create there own power plans and shipping with products. With things like Turbo Boost Index and Frequency Scaling Index, a processor is usually able to be controlled more responsively with core parking disabled.
 
@@ -15,22 +29,22 @@ First of all, what is Core parking? Basically spoken it allows:
 Core parking was first introduced in processor power management (PPM) engine. Your cores are parked that do not have any threads scheduled, and they go into a very low power states when they are not processing interrupts, DPCs, or other strictly affinitized work. The remaining cores are responsible for the remainder of the workload.
 
 
-**The main proplem**: On modern multicore processors, the distribution of activity to cores is very dynamic, and overall [helps Turbo Boost](https://stackoverflow.com/a/28921779/103167). Core parking itself acts in very short intervals and does not act long enough for you to perceive any particular core staying parked.
+**The main problem**: On modern multi-core processors, the distribution of activity to cores is very dynamic, and overall [helps Turbo Boost](https://stackoverflow.com/a/28921779/103167). Core parking itself acts in very short intervals and does not act long enough for you to perceive any particular core staying parked.
 
 
 **Tweaking can result in more heat?**
-**Yes**, in _theory_, if you force specific cores or all cores to stay parked for a very long time it could uneven heating problems insider your processor(s). However, this is depending on how efficent or inefficent the current power plan is and if the CPU gets enough "room to breath" or not and in which [processor state](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/) the CPU currently runs. More heat means means the CPU then starts to throttle and you overall lose performance. 
+**Yes**, in _theory_, if you force specific cores or all cores to stay parked for a very long time it could uneven heating problems insider your processor(s). However, this is depending on how efficient or inefficient the current power plan is and if the CPU gets enough "room to breath" or not and in which [processor state](https://metebalci.com/blog/a-minimum-complete-tutorial-of-cpu-power-management-c-states-and-p-states/) the CPU currently runs. More heat means means the CPU then starts to throttle and you overall lose performance.
 
-**Recommadation**:
-Let the Windows 10 scheduler spread the activity automatically, this is more efficent and does not create much side-effects (_unless your profile is inefficent or Windows own scheduler is flawed_).
+**Recommendation**:
+Let the Windows 10 scheduler spread the activity automatically, this is more efficient and does not create much side-effects (_unless your profile is inefficient or Windows own scheduler is flawed_).
 
 
 ### Hidden Registry command
 
-The registry command was "removed" (it's hidden) and replaced with `powercfg`, as explained over [here](https://superuser.com/a/1437854/900431). 
+The registry command was "removed" (it's hidden) and replaced with `powercfg`, as explained over [here](https://superuser.com/a/1437854/900431).
 
-| Registry Hive | Registry entry name | Value | 
-| :----- | :-----: |  :-----: | 
+| Registry Hive | Registry entry name | Value |
+| :----- | :-----: |  :-----: |
 | HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\0cc5b647-c1df-4637-891a-dec35c318583 | Attribute | 0 (default is 1) |
 
 
@@ -51,7 +65,7 @@ Core parking can potentially **increase energy efficiency during lower usage**, 
 
 #### Power Plans (profiles) & Power Scheme
 
-**Power Plans**: Windows 10 uses integrated and vendor based power plans to set the Processor Performance which will result in cores being parked or not depending on configuration of power scheme settings. 
+**Power Plans**: Windows 10 uses integrated and vendor based power plans to set the Processor Performance which will result in cores being parked or not depending on configuration of power scheme settings.
 
 Power users, vendors (or their applications) can create or "install" their own power plans, which is optional. You can use Microsoft's Provisioning framework to configure the processor power settings described [here](https://docs.microsoft.com/en-us/windows-hardware/customize/power-settings/configure-processor-power-management-options). The processor namespace is divided into three sets of identical power processor configurations called power profiles. The power profiles are used by the power processor engine to adapt the performance and parking algorithm on various system use cases.
 
@@ -122,7 +136,7 @@ The command line syntax for PowerCfg is [described over here](https://docs.micro
 * [Static Configuration Options for Heterogeneous Power Scheduling](https://docs.microsoft.com/en-us/windows-hardware/customize/power-settings/static-configuration-options-for-heterogeneous-power-scheduling)
 
 
-### Intel 
+### Intel
 * [Document Number: 335190-003 7th Generation Intel® Processor Families for H Platforms](https://www.intel.com/content/dam/www/public/us/en/documents/datasheets/7th-gen-core-family-mobile-h-processor-lines-datasheet-vol-1.pdf)
 * [Document Number: 335898-001 Intel® Core X-Series Processor Families](https://images-eu.ssl-images-amazon.com/images/I/A1L1jU3HvIL.pdf)
 

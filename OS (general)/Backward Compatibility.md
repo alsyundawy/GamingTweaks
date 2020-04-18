@@ -1,3 +1,7 @@
+* [Windows 10 and SafeDisc](#windows-10-and-safedisc)
+* [MIDI Mapper](#midi-mapper)
+* [Alt F4 doesn't terminate frozen applications](#alt-f4-doesnt-terminate-frozen-applications)
+
 ### Windows 10 and SafeDisc
 
 SafeDisc games do not work on Windows 10 and restoring the ability to load SafeDisc protected games will make your OS vulnerable to several attacks.

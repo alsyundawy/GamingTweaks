@@ -1,3 +1,64 @@
+* [Meltdown/MDS/ZombieLoad Performance Impact (MUST READ!)](#meltdownmdszombieload-performance-impact-must-read)
+* [NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine](#nvidias-fps-limiters-v1-v2--v3-vs-rtss-vs-in-engine)
+* [Hardware explained](#hardware-explained)
+* [Windows Defender Exploit Guard Configuration](#windows-defender-exploit-guard-configuration)
+* [HPET](#hpet)
+* [General Research](#general-research)
+* [Windows specific](#windows-specific)
+* [Mouse & Keyboard](#mouse--keyboard)
+* [Dithering under Windows](#dithering-under-windows)
+* [NetCode, Networking](#netcode-networking)
+* [Frametimes, FPS](#frametimes-fps)
+* [TFT](#tft)
+* [SSD](#ssd)
+* [General Game tweak-knowledge](#general-game-tweak-knowledge)
+* [YouTube Channel with focus on game analysis](#youtube-channel-with-focus-on-game-analysis)
+* [YouTube Channel with focus on hardware analysis](#youtube-channel-with-focus-on-hardware-analysis)
+* [Game Emulators](#game-emulators)
+* [Game compatibility](#game-compatibility)
+* [Raytracing benchmarks](#raytracing-benchmarks)
+* [Official Forums](#official-forums)
+* [DRM Performance Impact](#drm-performance-impact)
+* [Other common DRM problems](#other-common-drm-problems)
+* [Power Management](#power-management)
+* [Kernel Latencies](#kernel-latencies)
+* [PhysX](#physx)
+* [Audio Latency in Windows](#audio-latency-in-windows)
+* [For Developers](#for-developers)
+* [Driver & Firmware Resources](#driver--firmware-resources)
+* [Legendary RAM OC Guides](#legendary-ram-oc-guides)
+* [Comprehensive AMD Ryzen Memory & OC articles](#comprehensive-amd-ryzen-memory--oc-articles)
+* [Comprehensive Intel "Coffee Lake" Memory & OC articles](#comprehensive-intel-coffee-lake-memory--oc-articles)
+* [Message Signaled Interrupts](#message-signaled-interrupts)
+* [AMD (AGESA) BIOS overview & download links](#amd-agesa-bios-overview--download-links)
+* [Controller guides](#controller-guides)
+* [Programs](#programs)
+  * [Full Screen Optimizations](#full-screen-optimizations)
+  * [USB Polling tools](#usb-polling-tools)
+  * [HPET / QPC Benchmark tools](#hpet--qpc-benchmark-tools)
+  * [Frametime capture and analysis tools](#frametime-capture-and-analysis-tools)
+  * [Controller Emulators (_for Windows_)](#controller-emulators-for-windows)
+  * [Monitor "OC" programs](#monitor-oc-programs)
+  * [nVidia Driver "adjustment" programs](#nvidia-driver-adjustment-programs)
+  * [Driver Uninstaller (leftover removal) programs](#driver-uninstaller-leftover-removal-programs)
+  * [GPU OC programs (AMD/Intel/both)](#gpu-oc-programs-amdintelboth)
+  * [AMD CPU "OC" programs](#amd-cpu-oc-programs)
+* [AMD AM4 Vcore VRM Ratings (Updated frquently)](#amd-am4-vcore-vrm-ratings-updated-frquently)
+  * [AMD RAM "OC" programs](#amd-ram-oc-programs)
+  * [Intel "OC" programs](#intel-oc-programs)
+  * [Internet Latency "tweak" programs](#internet-latency-tweak-programs)
+  * [PC Latency measurement programs](#pc-latency-measurement-programs)
+  * [Mouse "OC" programs](#mouse-oc-programs)
+  * [Fix broken stereoscopic effects](#fix-broken-stereoscopic-effects)
+  * [Power Management programs](#power-management-programs)
+  * [Bios adjustment programs](#bios-adjustment-programs)
+  * [Unpausable cutscenes](#unpausable-cutscenes)
+  * [FOV calculator](#fov-calculator)
+  * [GPU BIOS Updater tools](#gpu-bios-updater-tools)
+* [Game streaming services](#game-streaming-services)
+* [Virtual LAN Gaming](#virtual-lan-gaming)
+
+
 ## Meltdown/MDS/ZombieLoad Performance Impact (MUST READ!)
 * [Looking At The Linux Performance Two Years After Spectre / Meltdown Mitigations (phoronix.com)](https://www.phoronix.com/scan.php?page=article&item=spectre-meltdown-2&num=1)
 * [The Performance Impact Of MDS / Zombieload Plus The Overall Cost Now Of Spectre/Meltdown/L1TF/MDS (phoronix.com)](https://www.phoronix.com/scan.php?page=article&item=mds-zombieload-mit&num=1)
@@ -80,11 +141,11 @@
 * [WSGF Forum (wsgf.org)](http://www.wsgf.org/forums/viewforum.php?f=64&sid=07479fb019fa626648795c596de5e9ea) - Game Mods, discussions and requests.
 
 
-## YouTube Channel with focus of game analysis
+## YouTube Channel with focus on game analysis
 * [Battle(non)sense](https://www.youtube.com/channel/UCP7QY6L5pvmm0-stL-pNFrw) (_net code and latency_)
 
 
-## YouTube Channel with focus of hardware analysis
+## YouTube Channel with focus on hardware analysis
 * [JayzTwoCents](https://www.youtube.com/user/Jayztwocents) (_all sorts of hardware_)
 * [Gamers Neus](https://www.youtube.com/channel/UChIs72whgZI9w6d6FhwGGHA) (_all sorts of hardware_)
 * [BitWid](https://www.youtube.com/channel/UCftcLVz-jtPXoH3cWUUDwYw) (_all sorts of hardware_)
@@ -100,15 +161,18 @@
 * [Emulator accuracy tests (tasvideos.org)](http://tasvideos.org/EmulatorResources.html#AccuracyTests)
 
 
+## Game compatibility
+* [dxwrapper](https://github.com/elishacloud/dxwrapper) - Fixes compatibility issues with older games running on Windows 10 by wrapping DirectX dlls. Also allows loading custom libraries with the file extension .asi into game processes.
+
+
 ## Raytracing benchmarks
 * [Crytek Neon Noir](https://www.cryengine.com/marketplace/product/neon-noir#)
 
 
-## Forums
+## Official Forums
 * [Official nVidia Forum](https://forums.geforce.com/)
 * [Official AMD Forum](https://community.amd.com/community/support-forums/general-discussion)
 * [Official Intel Forum](https://forums.intel.com/s/?language=en_US)
-* [Guru3d Forum](https://forums.guru3d.com/)
 
 
 ## DRM Performance Impact
@@ -235,6 +299,9 @@
 ### AMD CPU "OC" programs
 * [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
 * [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
+
+## AMD AM4 Vcore VRM Ratings (Updated frquently)
+- [AM4 Vcore VRM Ratings v1.4 (2019-11-07)](https://docs.google.com/spreadsheets/d/1d9_E3h8bLp-TXr-0zTJFqqVxdCR9daIVNyMatydkpFA/edit#gid=611478281)
 
 ### AMD RAM "OC" programs
 * [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)

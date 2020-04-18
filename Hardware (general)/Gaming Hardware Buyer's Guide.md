@@ -2,7 +2,7 @@
 
 This is a small community based "Gaming hardware buyer's guide", which will be updated monthly OR whenever there are new suggestions OR hardware releases are announced AND (_of course_) tested.
 
-This guide (explicitly and on purpose) does not direct link to vendors or reseller websites, because we believe everyone should decide and buy hardware from his/her favorite platform.
+This guide (explicitly and on purpose) does not direct link to vendors or reseller websites, because we believe everyone should decide and buy hardware from his/her favourite platform.
 
 This guide **does not** follow the "just because you're a gamer you can waste your money" principle. The most expensive hardware is not always the best nor can some gamers effort to buy each time a vendor releases new hardware to buy something new.
 
@@ -24,13 +24,34 @@ The recommendations are totally unbiased and the listed hardware, is listed base
 * Biased persons are **NOT** permitted to submit something to the list. For example, an Corsair employee is not permitted to submit something (_even if he has as a private person another opinion or suggestion_).
 
 
+* [Overview](#overview)
+  * [Against promotion/advertisement principles](#against-promotionadvertisement-principles)
+* [RAM](#ram)
+    * [Helper pages](#helper-pages)
+      * [DDR4 Specifications](#ddr4-specifications)
+      * [Timings / MHz](#timings--mhz)
+    * [16-GB DDR4-Kits (_for Intel and AMD_)](#16-gb-ddr4-kits-for-intel-and-amd)
+    * [32-GB-DDR4-Kits (_for Intel and AMD_)](#32-gb-ddr4-kits-for-intel-and-amd)
+    * [64-GB-DDR4-Kits (_for Intel and AMD_)](#64-gb-ddr4-kits-for-intel-and-amd)
+* [SSD](#ssd)
+* [Keyboard](#keyboard)
+* [PSU](#psu)
+    * [When do I need really need more Watt?](#when-do-i-need-really-need-more-watt)
+* [GPU](#gpu)
+* [CPU](#cpu)
+* [Sound (DAC)](#sound-dac)
+* [Wi-Fi 6 Router](#wi-fi-6-router)
+    * [Guide - Legend](#guide---legend)
+    * [Last Updated](#last-updated)
+    * [Change log](#change-log)
+
 
 # RAM
 
 We assume that "gaming" starts with 16 GB _which is, as of today the default_. We do not list a price because it can change over time or is location/reseller/vendor specific.
 
 ### Helper pages
-* [Samsung B-Die Finder](https://benzhaomin.github.io/bdiefinder/) - Find Samsung B-Die DDR 4 memory kits on Amazon, Newegg and many more. 
+* [Samsung B-Die Finder](https://benzhaomin.github.io/bdiefinder/) - Find Samsung B-Die DDR 4 memory kits on Amazon, Newegg and many more.
 
 
 #### DDR4 Specifications
@@ -200,7 +221,7 @@ Please keep in mind:
 | Up to 200€       |       AMD Radeon RX 580       |          Sapphire Radeon RX 580 Pulse |
 | Up to 250€       |     Nvidia GeForce GTX 1660 Super     |    Palit GeForce GTX 1660 Super GP |
 | 250€ - 300€       |     AMD Radeon RX 5600 XT     |    Sapphire Radeon RX 5600 XT Pulse|
-| 250€ to 400€       |     AMD Radeon RX 5600 XT    |     Sapphire Radeon RX 5600 XT Pulse |  
+| 250€ to 400€       |     AMD Radeon RX 5600 XT    |     Sapphire Radeon RX 5600 XT Pulse |
 | Up to 400€       | AMD Radeon RX 5700 XT         |    XFX Radeon RX Vega 5700 XT THICC II Ultra |
 | Up to 600€       |    Nvidia GeForce RTX 2070 Super    |       Gigabyte GeForce RTX 2070 Super Gaming OC |
 | Up to 800€       |    Nvidia GeForce RTX 2080 Super    |       MSI GeForce RTX 2080 Super Gaming X Trio |
@@ -219,7 +240,7 @@ Please keep in mind:
 | Cheap                               |               Intel Core i3-9100F               |             The minimum if you want to get into gaming! |
 | iGPU                                      |          AMD Ryzen 5 1600 (12 nm)         |                                            ~ 80 / € 93€ |
 | HEDT                                      |         AMD Ryzen Threadripper 3960X         |                                               ~ 2.195 € |
-| HEDT alternative | Threadripper 3990X / 3970X  | 
+| HEDT alternative | Threadripper 3990X / 3970X  |
 
 
 # Sound ([DAC](https://www.gamecrate.com/gamers-perspective-sound-cards-and-dacs/10481))
@@ -228,7 +249,7 @@ Please keep in mind:
 | ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
 | Entry level option                   |          Creative Sound Blaster Omni           | 600ohm Headphone Amp and Integrated Microphone  |
 | Alternative | Fiio Alpen-E17  | Controls and menus are finicky |
-| Luxury  | ODAC (ObjectiveDAC) | pre-built model are available | 
+| Luxury  | ODAC (ObjectiveDAC) | pre-built model are available |
 | Luxury alternative | Asus Xonar Essence One | Includes optical and S/PDIF in addition to USB |
 | Luxury alternative | Schiit Bifrost | Includes optical and S/PDIF in addition to USB | optical, USB, and S/PDIF inputs and outputs via RCA |
 | High-end luxury | WooAudio WA7 Fireflies | Supports USB or RCA input |
@@ -241,7 +262,7 @@ Please keep in mind:
 | ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
 | Entry level option                 |       Asus RT-AX86U           | OFDMA (5,7 Gbit/s), 1x 2,5-Gbit-Port  |
 | Alternative | Asus ZenWiFi AX/AC (XT8/CT8) | MU-MIMO (6,6 Gbit/s) |
-| Luxury  | Asus RT-AX89X | 2x10G-LAN, 8x antennas  | 
+| Luxury  | Asus RT-AX89X | 2x10G-LAN, 8x antennas  |
 | Luxury alternative | |  |
 | Luxury alternative |  |  |  |
 

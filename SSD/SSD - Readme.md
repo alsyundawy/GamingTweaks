@@ -1,3 +1,13 @@
+* [SSD/NVMe driver performance](#ssdnvme-driver-performance)
+* [SSD](#ssd)
+* [TRIM](#trim)
+* [Disk Defragmentation](#disk-defragmentation)
+* [Enable Write Caching for SSDs](#enable-write-caching-for-ssds)
+* [Write-cache Buffer Flushing](#write-cache-buffer-flushing)
+* [Disable Prefetch and Superfetch](#disable-prefetch-and-superfetch)
+* [Optimize or Disable Page File for SSDs](#optimize-or-disable-page-file-for-ssds)
+* [Update Drivers and Firmware](#update-drivers-and-firmware)
+
 ### SSD/NVMe driver performance
 
 [Samsung](https://www.samsung.com/semiconductor/minisite/ssd/download/tools/) as well as others vendors provide their own drivers for e.g. NVMe. The question is if Samsung drivers are _better_ than the once provided by Microsoft itself (_stock drivers_). The answer is, [no, there is no benefit in installing third-party drivers from Samung & Co anymore](https://twitter.com/KoroushGhazi/status/1242717122490298368).

@@ -1,3 +1,17 @@
+* [Do I need an internal sound card?](#do-i-need-an-internal-sound-card)
+    * [The OHM problem](#the-ohm-problem)
+    * [CPU problems](#cpu-problems)
+    * [DAC & Drivers](#dac--drivers)
+  * [Competitive fps and the "footstep" problematic](#competitive-fps-and-the-footstep-problematic)
+* [Conclusion](#conclusion)
+* [Realtek specific](#realtek-specific)
+  * [Windows 10 specific Realtek settings](#windows-10-specific-realtek-settings)
+  * [Microphone](#microphone)
+  * [Common Tips](#common-tips)
+  * [In-Game Tips](#in-game-tips)
+  * [EqualizerAPO Tutorials](#equalizerapo-tutorials)
+* [Modded sound drivers from DanielK, PAX & Co.](#modded-sound-drivers-from-danielk-pax--co)
+
 ## Do I need an internal sound card?
 
 This question depends on multiple factors:
@@ -26,7 +40,7 @@ If you think a sound card would improve your experience, you're mostly always be
 
 ### Competitive fps and the "footstep" problematic
 
-Some say this is placebo effect, while others swear there is a benefit in using sound effects to "enhance" enemy footstep sound in e.g. CS:GO. From my experience this is a _matter of taste_, however if you want to enhance something you could use [Equalizer APO](https://sourceforge.net/projects/equalizerapo/), which can (_in real-time_) without much CPU pressure change the microphone, speakers/headset and correct sound frequencies. 
+Some say this is placebo effect, while others swear there is a benefit in using sound effects to "enhance" enemy footstep sound in e.g. CS:GO. From my experience this is a _matter of taste_, however if you want to enhance something you could use [Equalizer APO](https://sourceforge.net/projects/equalizerapo/), which can (_in real-time_) without much CPU pressure change the microphone, speakers/headset and correct sound frequencies.
 
 
 ## Conclusion
@@ -76,7 +90,7 @@ You **typically do not need a sound card** unless:
 Set the sound quality to `Medium` or `High` (if there is such an option) depending on the importance of the sound quality for that particular game. This setting affects CPU usage. If you have a slow CPU you should select ‘Medium’, if you have a fast CPU you should select ‘High’. Setting the option to ‘High’ on a dated CPU may cause too much strain on your CPU and in turn can affect the FPS of that particular game.
 
 
-### EqualizerAPO Tutorials 
+### EqualizerAPO Tutorials
 * [EqualizerAPO + ReaPlugs VSTs (Mic processing without virtual cables)](https://www.youtube.com/watch?v=J3fBx2ftaBs)
 * [Fixing Microphone Reverb with Equalizer APO](https://www.youtube.com/watch?v=eySlFVYGk8E)
 
@@ -86,6 +100,6 @@ Set the sound quality to `Medium` or `High` (if there is such an option) dependi
 
 In some situations a modded sound driver or all-in-one packages can has its benefits, e.g. when the original driver causes problems or does not include features like DolbyAtmos. If you need such features or want to test those tweaked driver/packages, then there are two great resources (_see links below_).
 
-* [Daniel_K](https://danielkawakami.blogspot.com/) is a well-known sound card driver modder mainly for Realtek/Creative/Asus cards. Since the end of 2017 he did not updated his homepage nor driver packages. 
-* [PAX](https://www.hardwareheaven.com/community/forums/pax-drivers.174/) is a still active and known for his Creaitve/Asus sound packages/driver mods and tweaks. Some of his packages/mods are based in Daniel_K's work. 
+* [Daniel_K](https://danielkawakami.blogspot.com/) is a well-known sound card driver modder mainly for Realtek/Creative/Asus cards. Since the end of 2017 he did not updated his homepage nor driver packages.
+* [PAX](https://www.hardwareheaven.com/community/forums/pax-drivers.174/) is a still active and known for his Creaitve/Asus sound packages/driver mods and tweaks. Some of his packages/mods are based in Daniel_K's work.
 * [The Ultimate Realtek HD Audio Driver Mod for Windows 10](https://www.techpowerup.com/forums/threads/the-ultimate-realtek-hd-audio-driver-mod-for-windows-10.232921/page-112) is a thread on TechPowerUP around modding Realtek specific drivers to get Dolby, DTS, DTS:X 2,0 working. The thread provides All-in-One (AiO) packages, which you cn install on Windows 10 to get more sound effects and features. The member [Shibajee Roy](https://github.com/shibajee?tab=repositories) extracted everything from the AIO's an created repositories for each individual brand and sound effect, which makes the _Realtek modding_ overall easier.

@@ -1,17 +1,19 @@
+* [BIOS & UEFI Optimization(s)](#bios--uefi-optimizations)
+
 ### BIOS & UEFI Optimization(s)
 
-Since the BIOS might have the biggest effect (Overclocking (OC)/Underclocking (UC) & Undervolting (UV) wise) on your hardware/OS you should know what each toggle really does, every single setting is explained in the [BIOS Compendium](http://www.bios-info.de/download/dlkomp.htm), this is basically is a _must read_ before you even think about changing something. 
+Since the BIOS might have the biggest effect (Overclocking (OC)/Underclocking (UC) & Undervolting (UV) wise) on your hardware/OS you should know what each toggle really does, every single setting is explained in the [BIOS Compendium](http://www.bios-info.de/download/dlkomp.htm), this is basically is a _must read_ before you even think about changing something.
 
-Don't waste your time _Googleing_ or searching for YouTube Video's, better read the mentioned guide, it's the best explanation and the most detailed one you can get. It regularily gets updates.
+Don't waste your time _Googleing_ or searching for YouTube Video's, better read the mentioned guide, it's the best explanation and the most detailed one you can get. It regulary gets updates.
 
-Use the following advice as per own needs (!), please do keep in mind that e.g. disabling Hyper-Threading (HT) increases the overall security since it reduce the possible attack surface however, at the same time it decreases the performance on e.g. using VM because it _cripples_ the IPC performance drastically on Intel systems. The mentioned settings are only basic examples, it's necessary to review all BIOS settings manually and make a decision yourself, the [BIOS Kompendium](http://www.bios-info.de) helps you since it explains every toggle with much details. 
+Use the following advice as per own needs (!), please do keep in mind that e.g. disabling Hyper-Threading (HT) increases the overall security since it reduce the possible attack surface however, at the same time it decreases the performance on e.g. using VM because it _cripples_ the IPC performance drastically on Intel systems. The mentioned settings are only basic examples, it's necessary to review all BIOS settings manually and make a decision yourself, the [BIOS Kompendium](http://www.bios-info.de) helps you since it explains every toggle with much details.
 
-* Reset BIOS to "optimal defaults", some (_not all_) BIOS/vendors providing such an option, the "stock" settings are simply not optimized. 
-* Disable Intel Software Guard Extensions ([SGX](https://www.theregister.co.uk/2019/02/12/intel_sgx_hacked/)), there is overall [no benefit using it](https://arxiv.org/abs/1902.03256) and it slightly affects the CPU performance (if used). 
+* Reset BIOS to "optimal defaults", some (_not all_) BIOS/vendors providing such an option, the "stock" settings are simply not optimized.
+* Disable Intel Software Guard Extensions ([SGX](https://www.theregister.co.uk/2019/02/12/intel_sgx_hacked/)), there is overall [no benefit using it](https://arxiv.org/abs/1902.03256) and it slightly affects the CPU performance (if used).
 * ~~Disable High Precision Event Timer (HPET)~~ because it's not needed after Windows April Update Build 1803 you can check the current status via: _bcdedit /enum_
 * Disable CPU Enhanced Halt ([C1E](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface#Processor_states)), EIST ([SpeedStep](https://en.wikipedia.org/wiki/SpeedStep)) & Cool'n'Quiet (if present and in case you want to overclock)
 * Disable C-State such as CPU Enhanced Halt (C1E), C3, C6, C7, C8 (if you like to OC). Set [Package C-State Limit](https://www.spec.org/cpu2006/flags/Lenovo-Platform-Settings-V1.2-HSW-revA.html) if available to a low cstate values such as C2 or C0/C1 (lowest). nabling the CPU States causes the CPU to enter a low-power mode when the CPU is idle, this is only wanted in case you like to safe energy. The deeper the C-State (C6, C7, C8) the more latency is introduced due to the time it takes to restore the active power state.
-* Set any Fast Boot Settings to `OFF`: Fast boot in bios means that the PC ignores USB devices except for mouse/kb at startup. Wndows 10 own "Fast Startup" is [enough](https://www.howtogeek.com/243901/the-pros-and-cons-of-windows-10s-fast-startup-mode/), however if you use FDE or if you disabled "hibernation" globally, then turn it off. 
+* Set any Fast Boot Settings to `OFF`: Fast boot in bios means that the PC ignores USB devices except for mouse/kb at startup. Windows 10 own "Fast Startup" is [enough](https://www.howtogeek.com/243901/the-pros-and-cons-of-windows-10s-fast-startup-mode/), however if you use FDE or if you disabled "hibernation" globally, then turn it off.
 * Disable Intel's [Hyper-threading](https://en.wikipedia.org/wiki/Hyper-threading) (_optional_ but recommend due to [security reasons](https://www.extremetech.com/computing/276138-is-hyper-threading-a-fundamental-security-risk))
 * Set "Performance Enhance/Mode" to higher than "Standard" for faster memory timings
 * Enable [Extreme Memory Profile (XMP)](https://en.wikipedia.org/wiki/Serial_presence_detect#XMP)

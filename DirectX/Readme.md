@@ -1,3 +1,6 @@
+* [DirectX Control Panel](#directx-control-panel)
+* [DirectX 11 vs 12 and FPS drops/stutters](#directx-11-vs-12-and-fps-dropsstutters)
+
 ### DirectX Control Panel
 
 Some old(er) Games (and Emulators) might suffering from and outdated Engine which aren't compatible anymore with the latest Windows 10 DirectX changes, the [DirectX Control Panel](http://www.sephiroth-j.de/1/downloads/diverses.php#windows_dxcpl) utility addresses some of those engine related problems which means you can for example re-enable Hardware Acceleration functions on them.

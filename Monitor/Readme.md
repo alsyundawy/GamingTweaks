@@ -1,3 +1,15 @@
+* [Monitor Overclocking](#monitor-overclocking)
+* [Why overclock your Monitor?](#why-overclock-your-monitor)
+* [Possible Disadvantages](#possible-disadvantages)
+* [Possible Risks?](#possible-risks)
+* [Tools needed](#tools-needed)
+  * [Color profile(s)](#color-profiles)
+* [FPS capping](#fps-capping)
+* [Why is capping the FPS important?](#why-is-capping-the-fps-important)
+* [Performance issues with multi-monitors](#performance-issues-with-multi-monitors)
+* [Using Variable Refresh Rate (FreeSync)](#using-variable-refresh-rate-freesync)
+* [Enabling dithering for nVidia Geforce GPUs (non-Quadro GPUs/Linux)](#enabling-dithering-for-nvidia-geforce-gpus-non-quadro-gpuslinux)
+
 ## Monitor Overclocking
 
 * [GamersNexus](https://www.gamersnexus.net/guides/1674-overclock-monitor-higher-refresh-rate) has a nice guide to get started into the topic - worth to read!
@@ -15,7 +27,7 @@ Why overclock your Monitor?
 Possible Disadvantages
 -------------
 
-* Artifacts or no picture output 
+* Artifacts or no picture output
 * The settings you made must be imported and applied manually after each new driver installation (import/export)
 * Skipped frames (even if the monitor accepted the new values and everything seems "fluid")
 * HDCP might break or DRM fails
@@ -25,7 +37,7 @@ Possible Disadvantages
 Possible Risks?
 -------------
 
-**None** (!), every change is temporarily until you approved the change. You can import/export profiles and backup the current states before you do any serious change. The hardware itself will not be affected in case something went wrong. 
+**None** (!), every change is temporarily until you approved the change. You can import/export profiles and backup the current states before you do any serious change. The hardware itself will not be affected in case something went wrong.
 
 
 Tools needed
@@ -39,7 +51,7 @@ Tools needed
 
 ### Color profile(s)
 
-Make sure you install a correct [ICC Color profile](http://www.tftcentral.co.uk/articles/icc_profiles.htm#install). You can right-click on it and install it or place it manually under `\System32\Spool\Drivers\Color`. You should work with two profiles, one for applications such as Office and one for Gaming (if you have a separate monitor for _gaming only_ you can skip this part and only apply the gaming color profile. 
+Make sure you install a correct [ICC Color profile](http://www.tftcentral.co.uk/articles/icc_profiles.htm#install). You can right-click on it and install it or place it manually under `\System32\Spool\Drivers\Color`. You should work with two profiles, one for applications such as Office and one for Gaming (if you have a separate monitor for _gaming only_ you can skip this part and only apply the gaming color profile.
 
 If possible:
 - Go with an IPS panel (yep, even for gaming such as the ASUS ROG PG279Q)

@@ -1,3 +1,13 @@
+* [Devices (common sense tips)](#devices-common-sense-tips)
+* [RAM](#ram)
+* [Interrupts](#interrupts)
+* [Performance Monitor (perfmon.exe) + Windows Memory Diagnostic (mdsched.exe)](#performance-monitor-perfmonexe--windows-memory-diagnostic-mdschedexe)
+* [AMD Threadripper/Epyc and the Core Prio "Bug"](#amd-threadripperepyc-and-the-core-prio-bug)
+* [Intel Transactional Synchronization Extensions (TSX)](#intel-transactional-synchronization-extensions-tsx)
+* [MDS: Microarchitectural Data Sampling](#mds-microarchitectural-data-sampling)
+* [Lags](#lags)
+* [Multi-GPU](#multi-gpu)
+
 ### Devices (common sense tips)
 
 * Disable all integrated audio devices (e.g. nVidia/AMD audio drivers) e.g. if you use an external or add-on soundcard make sure you disable the internal sound chip unless you're a an _Audio Pro_ which needs separate devices.

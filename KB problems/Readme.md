@@ -1,3 +1,9 @@
+* [Patch Related Performance Impact](#patch-related-performance-impact)
+  * [KB4482887](#kb4482887)
+* [Build 1809 17763.503 - KB4494441](#build-1809-17763503---kb4494441)
+* [Build 1903 - KB4515384 (Audio Gaming Issue)](#build-1903---kb4515384-audio-gaming-issue)
+
+
 ## Patch Related Performance Impact
 
 ### KB4482887
@@ -21,7 +27,7 @@ Fixed with Windows 10 Build 17763.379 and [KB4489899](https://support.microsoft.
 
 This KB introduced several Audio API changes, as a result people reported that their in-game sound was very low, muffled or "strange". Some people even said that this might causes several games to "hang" (Overwatch, Apex Legends, WoW Classic, and PlayerUnknown's Battlegrounds (PUBG)) for a short amount of time.
 
-Microsoft seems aware of the issue and provides a workaround. 
+Microsoft seems aware of the issue and provides a workaround.
 
 > "To mitigate the issue, open settings in the impacted game and disable multi-channel audio, if this option is available. You can also search in the Windows Control Panel for third-party audio device control panels and disable Multi-channel audio or Virtual Surround Sound, if these options are available.
 

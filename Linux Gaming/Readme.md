@@ -1,3 +1,15 @@
+* [Problems with Linux as Gaming platform](#problems-with-linux-as-gaming-platform)
+* [Workaround for the Gaming situation](#workaround-for-the-gaming-situation)
+* [Gaming Distribution](#gaming-distribution)
+* [Software](#software)
+  * [Which API's working under Linux](#which-apis-working-under-linux)
+  * [Improving Shader Caching](#improving-shader-caching)
+  * [Tutorials](#tutorials)
+  * [Overclocking Tutorials](#overclocking-tutorials)
+  * [Some general tips for smoother game experience on Linux](#some-general-tips-for-smoother-game-experience-on-linux)
+  * [Other Resources](#other-resources)
+  * [Linux stress test tools](#linux-stress-test-tools)
+
 ### Why should I use Linux for gaming?
 
 * Less or no DRM (_GOG, itch.io and Humble Bundle's DRM-FREE titles_)

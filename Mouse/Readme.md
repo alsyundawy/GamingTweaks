@@ -1,4 +1,11 @@
-## What is mouse smoothing and why is it bad (for gaming)?
+* [Software as well as drivers you DO NOT need.](#software-as-well-as-drivers-you-do-not-need)
+    * [Windows](#windows)
+    * [Linux](#linux)
+    * [Can I get banned for using a modded mice driver?](#can-i-get-banned-for-using-a-modded-mice-driver)
+    * [Why not use modded drivers?](#why-not-use-modded-drivers)
+    * [What to do instead?](#what-to-do-instead)
+
+### What is mouse smoothing and why is it bad (for gaming)?
 
 Modern gaming [mice](https://en.wikipedia.org/wiki/Computer_mouse) are _very accurate_ when it comes to reporting where their users are moving the mouse, but older mouse sensors were not nearly as accurate as the mice with optical sensors that we have nowadays.
 
@@ -93,8 +100,8 @@ I wouldn't recommend e.g. povohat accel to [new players](https://docs.google.com
 
 **Downsides with modded drivers**
 - Other software might not work e.g. FaceIT.
-- Unsigned drivers which posseses a security risk, you need to disable Windows 10 driver signing to load unknown drivers from "unknown" places.
-- LED and some DPI feetures might not work.
+- Unsigned drivers which possesses a security risk, you need to disable Windows 10 driver signing to load unknown drivers from "unknown" places.
+- LED and some DPI features might not work.
 - You MUST uninstall all current mice drivers BEFORE you install new drivers.
 - Uninstall process might not be easy (for beginners) since most drivers or tweaked software mice drivers lack of a proper uninstaller (leftover files).
 
@@ -103,4 +110,4 @@ I wouldn't recommend e.g. povohat accel to [new players](https://docs.google.com
 * Just enable raw input in-game. When it's enabled, the game takes input straight from the mouse and not from the operating system.
 * Disabling enhanced pointer precision is recommended but [not necessary](https://youtu.be/F2-_hkv3gDA).
 * Ensure you use latest mice driver for your mice. If you find problems, report them to the developers, so that they fix it.
-* If you game supports "fine tweaking" mice settings via e.g. m_customaccel or/and m_customaccel_exponent you can adjust it as per own needs. Keep in mind not all games allowing you to tweak those settings.
+* If you game supports "fine tweaking" mice settings via e.g. `m_customaccel` or/and `m_customaccel_exponent` you can adjust it as per own needs. Keep in mind not all games allowing you to tweak those settings.

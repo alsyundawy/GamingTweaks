@@ -1,4 +1,8 @@
-### Disable Windows 10 driver updates delivered through Windows Update 
+* [Disable "Inbound Layer 7" on your router](#disable-inbound-layer-7-on-your-router)
+* [Reducing the Network latency to eliminate microstuttering in games](#reducing-the-network-latency-to-eliminate-microstuttering-in-games)
+  * [Verdict](#verdict)
+
+### Disable Windows 10 driver updates delivered through Windows Update
 
 See ["How to temporarily prevent a driver update from reinstalling in Windows 10"](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window). Another alternative is using [WuMGr](https://github.com/DavidXanatos/wumgr) which is basically a front-end for Windows crippled Windows Update interface, it basically spoken can take control over the Windows Updater mechanism by e.g. settings registry/gpo settings and also includes some more options to handle updates.
 
@@ -78,7 +82,7 @@ Keep in mind that some drivers might have different settings/options! After talk
 * `Disable` Jumbo Packet
 * Set Receive Side Scaling (RSS) - `ENABLED`
 * RSS Balancing Mode - `NUMAScaling`
-* **Don't touch Speed & Duplex, leave it on Auto Negotiation** 
+* **Don't touch Speed & Duplex, leave it on Auto Negotiation**
 
 #### tweaks via CMD/PowerShell
 
@@ -114,9 +118,9 @@ For example, if you live alone, don't play online games, don't use VOIP, don't u
 
 * Check if you're ISP offers a QoS package to residential connections (most do)
 * Check your Router QoS settings
-* Check your OS QoS options 
+* Check your OS QoS options
 
-In general **I recommend to leave it enabled**. If there some problems check your configuration instead, I did some benchmarks and I never found any impact (because my router isn't configured to use it). It's right that Windows reserves some bandwidth but that doesn't matter because your router might ignore the flags. 
+In general **I recommend to leave it enabled**. If there some problems check your configuration instead, I did some benchmarks and I never found any impact (because my router isn't configured to use it). It's right that Windows reserves some bandwidth but that doesn't matter because your router might ignore the flags.
 
 
 ### Optional network tweaks
@@ -149,7 +153,7 @@ Keep in mind that every modern Router firmware has an option to block or at leas
 
  The [Multimedia Class Scheduler](https://docs.microsoft.com/en-us/windows/win32/procthread/multimedia-class-scheduler-service?redirectedfrom=MSDN) Service has built-in network throttling which can degrade performance of online games. That's the theory.
 
-This [network tweak](https://www.speedguide.net/articles/gaming-tweaks-5812) aims to reduce the network latency, however this tweak is [controversial](http://forum.sudden-strike-alliance.fr/all-problem-with-lag-on-windows-7-and-10-t2807.html) because modern network cards/adapters already handlining it very well. The values are depending on `AvSetMmMaxThreadCharacteristics()` & `AvSetMmThreadCharacteristics()` and what Windows 10 version you use, most mentioned entries are already set by default to a good value. 
+This [network tweak](https://www.speedguide.net/articles/gaming-tweaks-5812) aims to reduce the network latency, however this tweak is [controversial](http://forum.sudden-strike-alliance.fr/all-problem-with-lag-on-windows-7-and-10-t2807.html) because modern network cards/adapters already handlining it very well. The values are depending on `AvSetMmMaxThreadCharacteristics()` & `AvSetMmThreadCharacteristics()` and what Windows 10 version you use, most mentioned entries are already set by default to a good value.
 
 Whenever you load a thread for this e.g. while gaming it must use these [two API's](https://www.installsetupconfig.com/win32programming/windowsthreadsprocessapis7_4.html) otherwise nothing will happen. So this depends how the game implemented the netcode. More information regarding this topic is avbl. over [here](http://msdn2.microsoft.com/en-us/library/ms681973.aspx), [here](http://msdn2.microsoft.com/en-us/library/ms681974.aspx) and [here](https://docs.microsoft.com/en-us/windows/win32/procthread/multimedia-class-scheduler-service?redirectedfrom=MSDN).
 
@@ -158,7 +162,7 @@ The task priority ranges from 1, which represents "low" to 8, which represent "h
 ```bash
 Windows Registry Editor Version 5.00
 
-; I do not recommended using this, since changing the defaults 
+; I do not recommended using this!
 ; Starting with Windows 1909 this is not anymore needed.
 ; https://github.com/CHEF-KOCH/GamingTweaks/issues/5
 
@@ -179,4 +183,4 @@ Windows Registry Editor Version 5.00
 [Multimedia streaming](http://msdn2.microsoft.com/en-us/library/ms684247.aspx) and some other games that uses [Multimedia Class Scheduler service (MMCSS)](https://docs.microsoft.com/en-us/windows/desktop/procthread/multimedia-class-scheduler-service) can only utilize up to 80% of your CPU. MMCSS ensures prioritized access to CPU resources, without denying CPU resources to lower-priority background applications.
 
 ### Verdict
-If a [game](https://www.reddit.com/r/GlobalOffensive/comments/646v5q/fps_boost_with_windows_10_update/) supports explicitly Game Mode, then this old "tweak" is redundant (after Windows 10 1809+ due to Game Mode changes) (_assuming you use + enabled Game Mode_). If the netnode differs or was optimized then it's also obsolete since the Game internally handles it differnt. So overall spoken it's depending on the Game, one example is the old Call of Duty, this game can get a benefit from using the mentioned tweak but that's the only game I found (so far).
+If a [game](https://www.reddit.com/r/GlobalOffensive/comments/646v5q/fps_boost_with_windows_10_update/) supports explicitly Game Mode, then this old "tweak" is redundant (after Windows 10 1809+ due to Game Mode changes) (_assuming you use + enabled Game Mode_). If the netnode differs or was optimized then it's also obsolete since the Game internally handles it different. So overall spoken it's depending on the Game, one example is the old Call of Duty, this game can get a benefit from using the mentioned tweak but that's the only game I found (so far).

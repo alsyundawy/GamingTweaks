@@ -14,7 +14,6 @@
 * [ULMB (nVidia) under Windows 10](#ulmb-nvidia-under-windows-10)
 * [nVidia HDMI Audio problems with (wrong timeouts)](#nvidia-hdmi-audio-problems-with-wrong-timeouts)
 
-
 ## Drivers (general advice)
 
 * Try to uninstall every drivers which you won't need (e.g. on OEM systems [pre-installed drivers]) via Control Panel\All Control Panel Items\Programs and Features, say no if they ask you to reboot the OS. Make sure you reboot into "Safe Mode" to install important drivers in order to get full access, this is not mandatory but it might solve to remove all leftovers (in case you have some upgrade/install) issue.
@@ -50,7 +49,7 @@ The Windows AMD Chipset driver installer is known to be problematic and in case 
 * Download/use DDU under Windows safe mode and then restart the PC after the cleaning is done.
 * Install the new driver and then restart your PC.
 * (optional) Activate `MSI mode` and restart your PC. MSI Mode needs to be set again after each new driver change!
-* (optional) Configure via nVidia Inspector e.g. 3D Global settings (keep in mind you can import/export those settings!), MAXPRERENDER FPS = 1 + Anisotropic Filtering Sample Optimization ON, Texture filtering Quality = High Performance + Power management mode = Prefer Max Performance
+* (optional) Configure via nVidia Inspector e.g. 3D Global settings (keep in mind you can import/export those settings!), `MAXPRERENDER FPS = 1` + Anisotropic Filtering Sample Optimization ON, Texture filtering Quality = High Performance + Power management mode = Prefer Max Performance
 * Configure 3D Game profile settings according to your own needs. E.g. Fast sync on for R6 Siege with an 120fps limiter for consistent and tear free gameplay.
 * Use [Intelligent standby list cleaner (ISLC)](https://www.wagnardsoft.com/forums/viewtopic.php?t=1256), [Timer Resolution](https://cms.lucashale.com/timer-resolution/) or [Timer Tool](https://github.com/tebjan/TimerTool) and set the value to `0.499ms` (0.50ms) in order to reduce the overall latency. _ISLC is the all-in-one solution._
 * Make your own game profiles and put the fps limiters for your games using RivaTuner Statistics Server (RTSS) provided along with MSI Afterburner according to your systems GFX and CPU power.

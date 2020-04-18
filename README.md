@@ -5,24 +5,23 @@
 </p>
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://img.shields.io/discord/418256415874875402.svg?colorA=7289da&colorB=99aab5&label=Discord&logo=discord&maxAge=60)](https://discord.me/CHEF-KOCH)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/nvinside)
+[![HitCount](http://hits.dwyl.com/CHEF-KOCH/GamingTweaks.svg)](http://hits.dwyl.com/CHEF-KOCH/GamingTweaks)
 
-My little guide is all about _Windows Gaming_, and I really mean Gaming on Windows 10 only! There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to "game tweaking" but they are mostly wrong, so I wrote my own guide to show the things which really do make the difference!
+My little guide is all about Windows 10 Gaming (_and a little bit Linux!_) and I really mean gaming! There exist [tons of outdated guides and myths](https://github.com/CHEF-KOCH/GamingTweaks/blob/master/Known%20Myths.md) when it comes to "game tweaking" but they are mostly wrong, so I wrote my own guide to show the things which really do make the difference!
 
 
-## General advice
+## General "tweak" advice
 - [x] **Do not** use any `all-in-one tweak tools/programs or scripts`, it's not worth it.
 - [x] **Do** always a **backups** of your current Windows 10 state. I recommend [Macrium Reflect](https://www.macrium.com/reflectfree) or (_FOSS & cross-platform_) [restic](https://github.com/restic/restic).
 - [x] There is **no Voodoo tweak** or `regtweak.awesome.reg` which  increases your OS/Game performance like 50%.
 - [x] **Do it yourself** and don't be lazy - _use brain.exe and do not copy tweaks from the internet!_.
 
 
-#### This guide is not for:
+#### This guide is not designed for:
 - [x] Security / Virtual Machine (VM)
 - [x] OS Hardening
-- [x] Game only tweaks or modifications, you can [check nexusmods](https://www.nexusmods.com/) for this
+- [x] Game only tweaks or modifications, you can [check nexusmods](https://www.nexusmods.com/) for this.
 
 
 #### Clarifications regarding the term "tweaking"
