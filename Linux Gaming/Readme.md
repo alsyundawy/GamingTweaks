@@ -9,6 +9,7 @@
   * [Some general tips for smoother game experience on Linux](#some-general-tips-for-smoother-game-experience-on-linux)
   * [Other Resources](#other-resources)
   * [Linux stress test tools](#linux-stress-test-tools)
+  * [Linux Performance Tools](#linux-performance-tools)
 
 ### Why should I use Linux for gaming?
 
@@ -155,4 +156,8 @@ There is a huge wiki about [gaming on Linux with some interesting tricks and tip
 
 ### Linux stress test tools
 - [s-tui](https://amanusk.github.io/s-tui/) + [Firestarter sub-modul](https://github.com/tud-zih-energy/FIRESTARTER) - CPU stress test.
+
+
+### Linux Performance Tools
+- [Gamemode](https://github.com/FeralInteractive/gamemode)
 
