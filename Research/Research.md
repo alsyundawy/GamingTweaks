@@ -43,9 +43,10 @@
   * [nVidia Driver "adjustment" programs](#nvidia-driver-adjustment-programs)
   * [Driver Uninstaller (leftover removal) programs](#driver-uninstaller-leftover-removal-programs)
   * [GPU OC programs (AMD/Intel/both)](#gpu-oc-programs-amdintelboth)
-  * [AMD CPU "OC" programs](#amd-cpu-oc-programs)
-* [AMD AM4 Vcore VRM Ratings (Updated frquently)](#amd-am4-vcore-vrm-ratings-updated-frquently)
-  * [AMD RAM "OC" programs](#amd-ram-oc-programs)
+  * [AMD CPU OC programs](#amd-cpu-oc-programs)
+  * [AMD AM4 Vcore VRM Ratings (Updated frequently)](#amd-am4-vcore-vrm-ratings-updated-frequently)
+  * [AMD RAM OC programs](#amd-ram-oc-programs)
+  * [AMD based OC tutorials](#amd-based-oc-tutorials)
   * [Intel "OC" programs](#intel-oc-programs)
   * [Internet Latency "tweak" programs](#internet-latency-tweak-programs)
   * [PC Latency measurement programs](#pc-latency-measurement-programs)
@@ -255,7 +256,7 @@
 
 
 ## AMD (AGESA) BIOS overview & download links
-* [AMD AGESA Bios collections thread (computerbase.de)](https://www.computerbase.de/forum/threads/sammelthread-amd-agesa-uebersicht-aller-bios-versionen.1902983/) - Overview of all AGESA BIOS updates, the website is in german but it's easy to understand, jutst follow your vendor and mobo and check if there is a link on the right side of the chart or not.
+* [AMD AGESA Bios collections thread (computerbase.de)](https://www.computerbase.de/forum/threads/sammelthread-amd-agesa-uebersicht-aller-bios-versionen.1902983/) - Overview of all AGESA BIOS updates, the website is in German but it's easy to understand, just follow your vendor and mobo and check if there is a link on the right side of the chart or not.
 
 ## Controller guides
 - [Connect the Nintendo Switch Pro Controller to Windows](https://www.gameaccesory.com/post/how-to-connect-your-pro-controller-to-your-pc-infographic)
@@ -300,16 +301,19 @@
 * [Sapphire TriXX OC Utility (sapphiretech.com)](https://www.sapphiretech.com/en/software)
 * [EVGA Precision XOC/X/X1 (evga.com)](https://www.evga.com/precisionxoc/)
 
-### AMD CPU "OC" programs
+### AMD CPU OC programs
 * [AMD Ryzen Master (download.amd.com](https://download.amd.com/Desktop/AMD-Ryzen-Master.exe) + [Official FAQ](https://www.amd.com/en/support/kb/faq/gpu-775)
 * [AmdMsrTweaker (github.com)](https://github.com/mpollice/AmdMsrTweaker)
 
-## AMD AM4 Vcore VRM Ratings (Updated frquently)
+### AMD AM4 Vcore VRM Ratings (Updated frequently)
 - [AM4 Vcore VRM Ratings v1.4 (2019-11-07)](https://docs.google.com/spreadsheets/d/1d9_E3h8bLp-TXr-0zTJFqqVxdCR9daIVNyMatydkpFA/edit#gid=611478281)
 
-### AMD RAM "OC" programs
+### AMD RAM OC programs
 * [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
 * [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
+
+### AMD based OC tutorials
+* [How To Increase TDP Of Ryzen Based Laptops (Ryzen 5 3500U, 2500U...) - Ryzen Controller](https://youtu.be/4ekZRwxFFGU)
 
 ### Intel "OC" programs
 * ~~[Intel® Extreme Tuning Utility - Intel® XTU](https://downloadcenter.intel.com/en/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU)~~ _Use other programs because the driver might cause performance problems._ Prefer (if possible) a method that does not require any software/driver e.b. via BIOS.
