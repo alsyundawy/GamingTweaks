@@ -69,7 +69,7 @@
 
 
 ## NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine
-- [Comprehensive benchmarking of NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine: A research of their frame time consistency and approximate input lag.Software (self.allbenchmarks)](https://old.reddit.com/r/allbenchmarks/comments/fbuk9x/comprehensive_benchmarking_of_nvidias_fps/)
+- [Comprehensive benchmarking of NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine: A research of their frame time consistency and approximate input lag.Software (r/allbenchmarks)](https://old.reddit.com/r/allbenchmarks/comments/fbuk9x/comprehensive_benchmarking_of_nvidias_fps/)
 
 
 ## Hardware explained
@@ -242,7 +242,7 @@
 * [The AnandTech Guide to Video Card Overclocking Software](https://www.anandtech.com/show/8589/anandtech-guide-to-video-card-overclocking-software/2)
 * [AMD Ryzen Memory Tweaking & Overclocking Guide (techpowerup.com)](https://www.techpowerup.com/reviews/AMD/Ryzen_Memory_Tweaking_Overclocking_Guide/)
 * [AMD RYZEN Overclocking Guide (overclockers.com)](https://www.overclockers.com/amd-ryzen-overclocking-guide/)
-* [Official Cosair Ryzen 3000 Series Memory Overclocking Guide (corsair.com) (.pdf)](https://www.corsair.com/corsairmedia/sys_master/productcontent/Ryzen3000_MemoryOverclockingGuide.pdf)
+* [Official Corsair Ryzen 3000 Series Memory Overclocking Guide (corsair.com) (.pdf)](https://www.corsair.com/corsairmedia/sys_master/productcontent/Ryzen3000_MemoryOverclockingGuide.pdf)
 * [Robert Hallock explains memory and overclocking on AMD Ryzen (youtube.com)](https://www.youtube.com/watch?v=vZgpHTaQ10k&feature=youtu.be&t=3m35s)
 
 
@@ -268,7 +268,7 @@
 
 ### USB Polling tools
 * [USB polling precision explained (overclock.net)](https://www.overclock.net/forum/375-mice/1550666-usb-polling-precision.html)
-* ~~[(old) Mouse testser tool (overclock.net)](https://www.overclock.net/forum/375-mice/1535687-mousetester-software.html) & [source code (github.com)](https://github.com/microe1/MouseTester)~~
+* ~~[(old) Mouse tester tool (overclock.net)](https://www.overclock.net/forum/375-mice/1535687-mousetester-software.html) & [source code (github.com)](https://github.com/microe1/MouseTester)~~
 * ~~([new) Mouse tester tool (overclock.net)](https://www.overclock.net/forum/375-mice/1590569-mousetester-software-reloaded.html) & [source code (github.com)](http://github.com/dobragab/MouseTester)~~
 * [Mouse movement recorder by MarkC (donewmouseaccel.blogspot.com)](https://donewmouseaccel.blogspot.com/) & [Source Code](https://github.com/CHEF-KOCH/GamingTweaks/tree/master/Tools/Mouse%20Movement%20Recorder/MouseMovementRecorder%20Source%20Code)
 * [Mouse Rate Checker (softpedia.com)](http://www.softpedia.com/get/System/System-Miscellaneous/Mouse-Rate-Checker.shtml)
@@ -378,8 +378,8 @@
 | [GameRanger](https://www.gameranger.com/download/)                             | GameRanger is definitely one of the best alternatives to Hamachi - Free, Silver Membership $19.95/year, Gold Membership $39.95/year |
 | [Wippien](http://www.wippien.com/download.php)                                 | It connects PCs with a P2P connection - Free and open source                                                                        |
 | [NetOverNet](https://www.netovernet.com/)                                      | Can be used as LAN emulator - Free, Basic $5/month, Advanced $10/month                                                              |
-| [Radmin VPN](http://www.radmin-vpn.com/)                                       | Secure VPN tunnel that doesn’t limit the number of users or gamers on its connection.                                             |
-| [FreeLAN](http://www.freelan.org/download.html)                                | Almost no lag when playing games, a [tutorial is avbl. here](https://www.freelan.org/get_help.html#adjusting-the-configuration)     |
+| [Radmin VPN](http://www.radmin-vpn.com/)                                       | Secure VPN tunnel that doesn't limit the number of users or gamers on its connection.                                             |
+| [FreeLAN](http://www.freelan.org/download.html)                                | Almost no lag when playing games, a [tutorial is avaible here](https://www.freelan.org/get_help.html#adjusting-the-configuration)     |
 | [P2PVPN](http://p2pvpn.org/)                                                   | P2PVPN is an open source developed with Java, the development has stopped in 2010.                                                  |
 | [NetOverNet](https://www.netovernet.com/)                                      | NetOverNet is basically a simple VPN emulator that can be used for hosting private gaming session.                                  |
 | [FreeLAN](http://www.freelan.org/download.html)                                | Completely open-source.                                                                                                             |
