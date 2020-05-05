@@ -189,7 +189,7 @@ For gamers which do not OC'ing their RAM:
 
 
 
-# PSU
+# PSU (ATX)
 
 A typically "Gamer PC" does not need more than ~500-600W - I explicitly mention it because most _beginners_ think "more is better", it's not (!). Of course it depends if you use water cooling, lots of external devices etc. (_overall spoken PSU "reserves"_) and if you want or not want - in the future - upgrade your rig or not (multi-GPU/CPU need more "power" etc_). However there is one important "universal rule": Stay away from "ultra" cheap PSUs!
 
@@ -207,6 +207,9 @@ A typically "Gamer PC" does not need more than ~500-600W - I explicitly mention 
 | Up to 85€        |  Sea Sonic Focus Plus Gold 550W  |                            Enermax Revolution X't II 550W, BitFenix Whisper M 450W, Corsair TX550M, BitFenix Formula Gold 550W or Super Flower Leadex III Gold 550W |
 | Up to 110€       | be quiet! Straight Power 11 550W |                                         Enermax Platimax D.F. 500W, Corsair RM550x, EVGA Supernova G3 550W, Cooler Master V550 or Corsair RM650 |
 | 110€ (or higher) |          Corsair AX850           | Asus ROG Thor 850P, be quiet! Dark Power Pro 11 550W, Enermax MaxTytan 750W, Aerocool P7-650W, Corsair HX750 or Corsair HX750i |
+
+
+An efficiency & Noise level certifications database can be found over [here](https://www.cybenetics.com/index.php?option=power-supplies).
 
 
 
