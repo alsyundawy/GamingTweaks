@@ -25,6 +25,7 @@
   * [GameDVR](#gamedvr)
   * [GameBarPresenceWriter.exe](#gamebarpresencewriterexe)
   * [Windows 10 Memory Compression](#windows-10-memory-compression)
+* [Game Mode](#game-mode)
 
 ## How do I measure the overall OS performance?
 
@@ -339,7 +340,7 @@ GameBarPresenceWriter.exe is a part of the XBox Game Bar function and typically 
 [Memory Compression](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)) in Windows 10 was introduced with [Build 10525](https://blogs.windows.com/windowsexperience/2015/08/18/announcing-windows-10-insider-preview-build-10525/#2Vhj8QCPv3g4Z372.97). An in-depth explanation is given over [here](https://channel9.msdn.com/Blogs/Seth-Juarez/Memory-Compression-in-Windows-10-RTM).
 
 Example:
-If you had 8 GB of RAM and applications had, let's say 9 GB of stuff to store in that RAM, at least 1 GB would have to be “paged out” and stored in the page file on your computer’s disk. Accessing data in the page file is very slow compared to RAM. Overall said, it all comes down to the amount of RAM. In theory you should not notice if compression is enabled or disabled on a system with 16+ GB, the sad truth is that some applications and games are not well "optimized" and disabling the compression algorithm might result in an overall _smoother_ application/game behavior, especially if you run many UWP apps in the background.
+If you had 8 GB of RAM and applications had, let's say 9 GB of stuff to store in that RAM, at least 1 GB would have to be “paged out” and stored in the page file on your computer’s disk. Accessing data in the page file is very slow compared to RAM. Overall said, it all comes down to the amount of RAM. In theory you should not notice if compression is enabled or disabled on a system with 16+ GB, the sad truth is that some applications and games are not well "optimized" and disabling the compression algorithm might result in an overall _smoother_ application/game behaviour, especially if you run many UWP apps in the background.
 
 
 Open a PowerShell with Administrator privileges then, run the command `Disable-MMAgent -MemoryCompression` and reboot. This disables the compression. To enable it later again, run again PowerShell as admin and run the `Enable-MMAgent -MemoryCompression` command. Some tasks managers can show memory compression information like Windows own task-manager, [ProcessHacker](https://wj32.org/processhacker/forums/viewtopic.php?t=2421) and [Process Explorer](https://www.howtogeek.com/319933/what-is-memory-compression-in-windows-10/).
@@ -348,3 +349,25 @@ For more details, see [this post](https://github.com/CHEF-KOCH/GamingTweaks/issu
 
 ![Controlling Memory Compression](https://s19.directupload.net/images/191127/fdekunh3.png)
 
+
+## Game Mode
+
+In Windows 10 2004 (20H1) you might can suffer from random stuttering if Game Mode is enabled, this basically affects [specific game engines](https://www.techpowerup.com/266744/windows-10-game-mode-negatively-impacts-call-of-duty-warzone-performance) (which means only some Games are affected). **IT IS NOT NEEDED** to import/change it if you do not suffer from game stutters, Microsoft is aware of the issue and will most likely fix this over the next several "Patch-Tuesdays".
+
+You can this via elevated CMD/PowerShell:
+```ps
+reg add "HKCU\Software\Microsoft\GameBar" /v "AllowAutoGameMode" /t REG_DWORD /d "0" /f
+reg add "HKCU\Software\Microsoft\GameBar" /v "AutoGameModeEnabled" /t REG_DWORD /d "0" /f
+```
+
+OR
+
+```
+Windows Registry Editor Version 5.00
+
+; The old fashion way via Registry import.
+
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
+"AllowAutoGameMode"=dword:00000000
+"AutoGameModeEnabled"=dword:00000000
+```
