@@ -189,7 +189,7 @@ For gamers which do not OC'ing their RAM:
 
 
 
-# PSU
+# PSU (ATX)
 
 A typically "Gamer PC" does not need more than ~500-600W - I explicitly mention it because most _beginners_ think "more is better", it's not (!). Of course it depends if you use water cooling, lots of external devices etc. (_overall spoken PSU "reserves"_) and if you want or not want - in the future - upgrade your rig or not (multi-GPU/CPU need more "power" etc_). However there is one important "universal rule": Stay away from "ultra" cheap PSUs!
 
@@ -209,6 +209,9 @@ A typically "Gamer PC" does not need more than ~500-600W - I explicitly mention 
 | 110€ (or higher) |          Corsair AX850           | Asus ROG Thor 850P, be quiet! Dark Power Pro 11 550W, Enermax MaxTytan 750W, Aerocool P7-650W, Corsair HX750 or Corsair HX750i |
 
 
+An efficiency & Noise level certifications database can be found over [here](https://www.cybenetics.com/index.php?option=power-supplies).
+
+
 
 # GPU
 
@@ -217,14 +220,14 @@ Please keep in mind:
 
 | Category         |          Suggestion           |                      Brand Suggestion |
 | ---------------- | :---------------------------: | ------------------------------------: |
-| Up to 150€       |       AMD Radeon RX 570       |         Asus Radeon RX 570 RS XXX Edition |
-| Up to 200€       |       AMD Radeon RX 580       |          Sapphire Radeon RX 580 Pulse |
-| Up to 250€       |     Nvidia GeForce GTX 1660 Super     |    Palit GeForce GTX 1660 Super GP |
-| 250€ - 300€       |     AMD Radeon RX 5600 XT     |    Sapphire Radeon RX 5600 XT Pulse|
+| Up to 150€       |       AMD Radeon RX 570       |        ASRock Radeon RX 570 Phantom Gaming D |
+| Up to 200€       |       AMD Radeon RX 580       |          PowerColor Radeon RX 580 Red Dragon V2 |
+| Up to 250€       |     Nvidia GeForce GTX 1660 Super     |    Gainward GeForce GTX 1660 Super Ghost OC |
+| 250€ - 300€       |     AMD Radeon RX 5600 XT     |    MSI Radeon RX 5600 XT Mech OC |
 | 250€ to 400€       |     AMD Radeon RX 5600 XT    |     Sapphire Radeon RX 5600 XT Pulse |
-| Up to 400€       | AMD Radeon RX 5700 XT         |    XFX Radeon RX Vega 5700 XT THICC II Ultra |
-| Up to 600€       |    Nvidia GeForce RTX 2070 Super    |       Gigabyte GeForce RTX 2070 Super Gaming OC |
-| Up to 800€       |    Nvidia GeForce RTX 2080 Super    |       MSI GeForce RTX 2080 Super Gaming X Trio |
+| Up to 400€       | AMD Radeon RX 5700 XT         |    Gigabyte Radeon RX Vega 5700 XT Gaming OC |
+| Up to 600€       |    Nvidia GeForce RTX 2070 Super    |       Palit GeForce RTX 2070 Super JS |
+| Up to 800€       |    Nvidia GeForce RTX 2080 Super    |       MSI GeForce RTX 2080 Super Ventus XS OC |
 | 800€ (or higher) |  Nvidia GeForce RTX 2080 Ti   | Gainward GeForce RTX 2080 Ti Phoenix GS |
 
 

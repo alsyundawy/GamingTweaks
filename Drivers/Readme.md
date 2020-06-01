@@ -65,6 +65,15 @@ The Windows AMD Chipset driver installer is known to be problematic and in case 
 * There are no additional tweaks (needed [?] - if you found some, let me know or create a PR)
 
 
+### AMD Chipset driver bloatware removal
+
+Starting with AMD Radeon Software Adrenalin 2020 Edition 20.5.1 AMD integrates some [bloatware](https://en.wikipedia.org/wiki/Software_bloat#Bloatware), stuff you do not need into the driver software package, you can remove this without any problems.
+
+* Extract AMD Radeon Software Adrenalin 2020 Edition 20.5.1+ (_or newer_) **BEFORE you install the package**.
+* Navigate to amddxe & amdlog folder.
+* Remove `AMD\win10-radeon-software-adrenalin-2020-edition-20.5.1-may27.exe\Packages\Drivers\Display\WT6A_INF\`, the sub folders/files are not needed.
+
+
 ## nVidia and Ansel
 
 [Ansel](https://www.geforce.com/hardware/technology/ansel) is (more or less) deprecated and already partially removed from the current nVidia drivers (only backward compatibility is still given). There are several games like WatchDogs or [Conan Exile](https://steamcommunity.com/app/440900/discussions/0/133256959371919651/) which suffering from FPS drops once Ansel if its enabled.
