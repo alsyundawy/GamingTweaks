@@ -22,12 +22,14 @@ My little guide is all about Windows 10 Gaming (_and a little bit Linux!_) and I
 - [x] Security / Virtual Machine (VM)
 - [x] OS Hardening
 - [x] Game only tweaks or modifications, you can [check nexusmods](https://www.nexusmods.com/) for this.
+- [x] Older Windows 10 versions, we only list tweaks for the latest stable version.
 
 
 #### Clarifications regarding the term "tweaking"
 - [x] Tweaks usually do not magically increase any in-game FPS. There are specific circumstances in which the OS can be tweaked to improve or stabilize the game [smoothness](https://en.wikipedia.org/wiki/Smoothness), when you for example cap your FPS to get rid of the overheap which otherwise might have result in an in-game stuttering.
 - [x] Tweaks should not be randomly applied via a "universal" script or tool because the OS itself changes over time and the configuration is different for each user. This is the reason why this project don't provide a general _"myawesomescript.ps1"_ script.
 - [x] Tweaks are defined by: "Latency improvements", "Engine related improvements/workarounds", "FPS workarounds/fixes", "CPU usage" "RAM usage", "OS workarounds", "Driver workarounds" or "Network latency optimization". All of them can have an impact on the OS, game or network performance which means the OS/game might runs more _stable_ (_smooth_) or on higher fps (e.g. if overclocked or _optimized_).
+- [x] [Known issues](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-2004) and possible workarounds do not count as tweaks, they are workarounds for problems Microsoft needs to fix.
 
 
 #### Philosophy

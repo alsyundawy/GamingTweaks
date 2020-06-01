@@ -352,7 +352,7 @@ For more details, see [this post](https://github.com/CHEF-KOCH/GamingTweaks/issu
 
 ## Game Mode
 
-In Windows 10 2004 (20H1) you might can suffer from random stuttering if Game Mode is enabled, this basically affects [specific game engines](https://www.techpowerup.com/266744/windows-10-game-mode-negatively-impacts-call-of-duty-warzone-performance) (which means only some Games are affected). **IT IS NOT NEEDED** to import/change it if you do not suffer from game stutters, Microsoft is aware of the issue and will most likely fix this over the next several "Patch-Tuesdays".
+In Windows 10 2004 (20H1) you might can suffer from random stuttering if Game Mode is enabled, this basically affects [specific game engines](https://www.techpowerup.com/266744/windows-10-game-mode-negatively-impacts-call-of-duty-warzone-performance) (which means only some Games are affected). **IT IS NOT NEEDED** to import/change it if you do not suffer from game stutters, [Microsoft is aware of the issue](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-2004) and will most likely fix this over the next several "Patch-Tuesdays".
 
 You can this via elevated CMD/PowerShell:
 ```ps
