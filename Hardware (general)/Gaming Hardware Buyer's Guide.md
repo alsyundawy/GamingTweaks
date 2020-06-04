@@ -236,11 +236,12 @@ Please keep in mind:
 
 | Category                                  |                  Suggestion                  |                                   Notice or alternative |
 | ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
-| Luxury                                    |          Intel Core i9-9900K or KS           | Security holes but overall "best for gaming" (IPC/perf) |
-| Middle class (_best price per performance_) | Intel Core i7-9700(K/F) or AMD Ryzen 7 3700X |                                       AMD Ryzen 7 3700X |
+| Luxury                                    |          Intel Core i9-10900K          | // |
+| High-End                                    |         Intel Core i7-10700K        | // |
+| Middle class                               | Intel Core i7-9700F or AMD Ryzen 7 3700X |                                       AMD Ryzen 7 3700X |
 | Middle                                    |               AMD Ryzen 5 3600               |                                     Intel Core i5-9400F |
-| Cheap middle                              |               AMD Athlon 3000G/Intel Core i5-9400F               |             The minimum if you want to get into gaming! |
-| Cheap                               |               Intel Core i3-9100F               |             The minimum if you want to get into gaming! |
+| Cheap middle                              |               Intel Core i5-10400F              |             // |
+| Cheap                               |               AMD Ryzen 3 3300X             |             The minimum if you want to get into gaming! |
 | iGPU                                      |          AMD Ryzen 5 1600 (12 nm)         |                                            ~ 80 / € 93€ |
 | HEDT                                      |         AMD Ryzen Threadripper 3960X         |                                               ~ 2.195 € |
 | HEDT alternative | Threadripper 3990X / 3970X  |
@@ -283,6 +284,7 @@ Please keep in mind:
 
 
 ### Change log
+- 04.06.2020: CPU Chart updated
 - 06.04.2020: CPU chart updated
 - 05.04.2020: GPU chart updated
 - 18.01.2020: Samsung B-Die DDR 4 memory kits finder added
