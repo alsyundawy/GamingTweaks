@@ -119,7 +119,7 @@ This is not helpful at all, since all animations are GPU accelerated. A gaming m
 
 ### Disable High Precision Event Timer (HPET)
 
-This is not needed after Windows April Update (Build 1803), you can check the current status via `bcedit /enum`. Changing the values (especially on newer Intel CPU's 9900k can result in a worse performance).
+This is not needed after Windows April Update (Build 1803), you can check the current status via `bcdedit /enum`. Changing the values (especially on newer Intel CPU's 9900k can result in a worse performance).
 
 
 
