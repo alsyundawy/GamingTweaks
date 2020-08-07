@@ -28,8 +28,8 @@ The recommendations are totally unbiased and the listed hardware, is listed base
   * [Against promotion/advertisement principles](#against-promotionadvertisement-principles)
 * [RAM](#ram)
     * [Helper pages](#helper-pages)
-      * [DDR4 Specifications](#ddr4-specifications)
-      * [Timings / MHz](#timings--mhz)
+    * [DDR4 Specifications](#ddr4-specifications)
+    * [Timings / MHz](#timings--mhz)
     * [16-GB DDR4-Kits (_for Intel and AMD_)](#16-gb-ddr4-kits-for-intel-and-amd)
     * [32-GB-DDR4-Kits (_for Intel and AMD_)](#32-gb-ddr4-kits-for-intel-and-amd)
     * [64-GB-DDR4-Kits (_for Intel and AMD_)](#64-gb-ddr4-kits-for-intel-and-amd)
@@ -254,9 +254,10 @@ Please keep in mind:
 | Middle                                    |               AMD Ryzen 5 3600               |                                     Intel Core i5-9400F |
 | Cheap middle                              |               Intel Core i5-10400F              |             // |
 | Cheap                               |               AMD Ryzen 3 3300X             |             The minimum if you want to get into gaming! |
-| iGPU                                      |          AMD Ryzen 5 1600 (12 nm)         |                                            ~ 80 / € 93€ |
-| HEDT                                      |         AMD Ryzen Threadripper 3960X         |                                               ~ 2.195 € |
-| HEDT alternative | Threadripper 3990X / 3970X  |
+| iGPU                                      |          AMD Ryzen 3 3200 G         |                                            ~81€  |
+| Minimum                                      |          Intel Core i3-9100F      |                                            ~66€  |
+| HEDT | AMD Ryzen Threadripper 3990X | | 
+
 
 
 # Sound ([DAC](https://www.gamecrate.com/gamers-perspective-sound-cards-and-dacs/10481))
@@ -290,12 +291,9 @@ Please keep in mind:
 * iGPU      = integrated graphic unit
 * *Creative Sound Blaster Z (_often advertised as "gamer sound card"_) is not recommended, while the hardware is overall okay and for most people fine the software and the driver are not _optimal_. "Creative Technology" has a [bad support history](https://danielkawakami.blogspot.com/2015/07/sb-x-fi-series-support-pack-34.html), which is not even mentioned on [Wikipedia](https://en.wikipedia.org/wiki/Creative_Technology), but in almost all [hardware boards](https://arstechnica.com/civis/viewtopic.php?f=6&t=242218).
 
-### Last Updated
-
-* `06.04.2020`
-
 
 ### Change log
+- 07.08.2020: CPU Chart July 2020
 - 06.07.2020: RAM Chart updated, added JDEC standards
 - 04.06.2020: CPU Chart updated
 - 06.04.2020: CPU chart updated
