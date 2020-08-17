@@ -13,7 +13,7 @@ The recommendations are totally unbiased and the listed hardware, is listed base
 * Hardware specifications
 * Community reviews
 * Price per performance
-* _Security aspect_
+* _Security aspect_ (_overall focus is performance but security should also not compromised_)
 * Overall customer support
 * Vendor specific tests are NOT allowed not substantial evidence (_because of course everyone claims to have the best/superior products_)
 
@@ -174,6 +174,17 @@ For gamers which do not OC'ing their RAM:
 
 
 
+# Mice
+
+| Category                  |      Suggestion      |                           Specifications |
+| ------------------------- | :------------------: | ---------------------------------------: |
+| Optimal |    Glorious PC Gaming Race Model D    | PixArt PMW-3360,Lift-Off-Distance: 1,5 – 3,0 mm |
+| Optimal (alternative) |    Glorious PC Gaming Race Model D-    | PixArt PMW-3360,Lift-Off-Distance: Lift-Off-Distance: 0,7 – 2,0 mm |
+| Optimal (alternative) |  Logitech G502 HERO   | Logitech Hero 16K |
+| Optimal (alternative) |  Corsair Gaming M65 Pro RGB   | PixArt PMW 3360 |
+
+
+
 # Keyboard
 
 | Category         |             Suggestion             |                                                                                         Specifications |
@@ -293,6 +304,7 @@ Please keep in mind:
 
 
 ### Change log
+- 17.08.2020: Mice section added
 - 07.08.2020: CPU Chart July 2020
 - 06.07.2020: RAM Chart updated, added JDEC standards
 - 04.06.2020: CPU Chart updated
