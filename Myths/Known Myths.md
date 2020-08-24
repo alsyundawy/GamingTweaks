@@ -23,6 +23,7 @@
 * [Turn on Readiest](#turn-on-readiest)
 * [CPU core affinity performance/fps fixes](#cpu-core-affinity-performancefps-fixes)
 * [Changing or removing ICC color profiles resulting in lower input lag](#changing-or-removing-icc-color-profiles-resulting-in-lower-input-lag)
+* [Power conditioners help to fix or correct mice lag](#power-conditioners-help-to-fix-or-correct-mice-lag)
 
 ### Known Myths
 
@@ -164,3 +165,8 @@ Page file on SSD (especially on other partition than game) definitely outperform
 > [If you remove icc color profile, you can notice you get a lot of less input lag.](https://forums.blurbusters.com/viewtopic.php?f=10&t=6378)
 
 There is no test nor evidence to backup such claim. Some games itself can change/influence the color profile once they hit a specific state e.g. fullscreen (_depending on what you set in the game profile or as in-game option_).
+
+
+### Power conditioners help to fix or correct mice lag
+
+[Power conditioners](https://imgur.com/a/DBeBV6O) do not help with inconsistent mouse movement/input lag due to electrical issues. It will not fix any "mice lag" or other spread myths. Power conditioners can help e.g. in order to lower or to get rid of general isolation _problems_, noise reduction, and protects from sagging/surging. The best type of EMI/RFI _filtering_ (_if you suffer from it_) is a good low impedance grounding (return path for transient current). You can/could improve grounding by connecting multiple copper grounding rods together to lower impedance.
