@@ -177,4 +177,11 @@ There is no test nor evidence to backup such claim. Some games itself can change
 
 This is a myth spread [across many forum posts](https://forums.blurbusters.com/viewtopic.php?f=10&t=7323), the false assumption that disabling [WriteCombining (uswc)](https://en.wikipedia.org/wiki/Write_combining) helps, this was [spread](https://answers.microsoft.com/en-us/windows/forum/windows_other-gaming/write-combining-disable/b002ced3-83ba-441a-9370-de4224c37cea) from [XP times](https://fgiesen.wordpress.com/2013/01/29/write-combining-is-not-your-friend/) when not all hardware utilize that directly.
 
-You can try [Wagnardmobile DisableVideoUSWC](http://www.wagnardmobile.com/DDU/download/DisableVideoUSWC.zip) to check this for yourself.
+You can try [Wagnardmobile DisableVideoUSWC](http://www.wagnardmobile.com/DDU/download/DisableVideoUSWC.zip) to check this for yourself. The program modifies the following parameter in your registry:
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\nvlddmkm]
+"DisableWriteCombining"=dword:00000001
+```
