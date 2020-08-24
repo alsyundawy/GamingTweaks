@@ -24,6 +24,7 @@
 * [CPU core affinity performance/fps fixes](#cpu-core-affinity-performancefps-fixes)
 * [Changing or removing ICC color profiles resulting in lower input lag](#changing-or-removing-icc-color-profiles-resulting-in-lower-input-lag)
 * [Power conditioners help to fix or correct mice lag](#power-conditioners-help-to-fix-or-correct-mice-lag)
+* [DisableWriteCombining will reduce input delay](#disablewritecombining-will-reduce-input-delay)
 
 ### Known Myths
 
@@ -170,3 +171,8 @@ There is no test nor evidence to backup such claim. Some games itself can change
 ### Power conditioners help to fix or correct mice lag
 
 [Power conditioners](https://imgur.com/a/DBeBV6O) do not help with inconsistent mouse movement/input lag due to electrical issues. It will not fix any "mice lag" or other spread myths. Power conditioners can help e.g. in order to lower or to get rid of general isolation _problems_, noise reduction, and protects from sagging/surging. The best type of EMI/RFI _filtering_ (_if you suffer from it_) is a good low impedance grounding (return path for transient current). You can/could improve grounding by connecting multiple copper grounding rods together to lower impedance.
+
+
+### DisableWriteCombining will reduce input delay
+
+This is a myth spread [across many forum posts](https://forums.blurbusters.com/viewtopic.php?f=10&t=7323), the false assumption that disabling [WriteCombining](https://en.wikipedia.org/wiki/Write_combining) helps, this was [spread](https://answers.microsoft.com/en-us/windows/forum/windows_other-gaming/write-combining-disable/b002ced3-83ba-441a-9370-de4224c37cea) from [XP times](https://fgiesen.wordpress.com/2013/01/29/write-combining-is-not-your-friend/) when not all hardware utilize that directly.
