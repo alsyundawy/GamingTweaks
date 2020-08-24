@@ -22,6 +22,7 @@
 * [Disable Eagle’s Algorithm](#disable-eagles-algorithm)
 * [Turn on Readiest](#turn-on-readiest)
 * [CPU core affinity performance/fps fixes](#cpu-core-affinity-performancefps-fixes)
+* [Changing or removing ICC color profiles resulting in lower input lag](#changing-or-removing-icc-color-profiles-resulting-in-lower-input-lag)
 
 ### Known Myths
 
@@ -122,7 +123,6 @@ This is not helpful at all, since all animations are GPU accelerated. A gaming m
 This is not needed after Windows April Update (Build 1803), you can check the current status via `bcdedit /enum`. Changing the values (especially on newer Intel CPU's 9900k can result in a worse performance).
 
 
-
 ### Using an older Windows 10 versions helps to improve the OS performance because 3,5 MHZ vs 10 Mhz QPC timer?
 
 The official documentation (outdated) can be found over [here](https://docs.microsoft.com/en-us/windows/win32/sysinfo/acquiring-high-resolution-time-stamps#direct-tsc-usage).
@@ -157,3 +157,10 @@ Page file on SSD (especially on other partition than game) definitely outperform
 ### CPU core affinity performance/fps fixes
 
 [See here](https://old.reddit.com/r/starcitizen/comments/5z1ndx/cpu_core_affinity_performancefps_fix/deupoqf/) for an explanation.
+
+
+### Changing or removing ICC color profiles resulting in lower input lag
+
+> [If you remove icc color profile, you can notice you get a lot of less input lag.](https://forums.blurbusters.com/viewtopic.php?f=10&t=6378)
+
+There is no test nor evidence to backup such claim. Some games itself can change/influence the color profile once they hit a specific state e.g. fullscreen (_depending on what you set in the game profile or as in-game option_).
