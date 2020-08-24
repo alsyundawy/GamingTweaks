@@ -232,7 +232,7 @@
 * [Mega SG Jailbreak (github.com)](https://github.com/SmokeMonsterPacks/Mega-Sg-Jailbreak)
 
 
-## Legendary RAM OC Guides
+## Comprehensive RAM OC Guides
 * [RAM-Overclocking und Auswirkungen auf Spiele bei Intel CPUs (computerbase.de)](https://www.computerbase.de/forum/threads/intel-core-i-serie-ram-overclocking-auswirkungen-auf-spiele.1849970/)
 * [Intel Skylake-X (Sockel 2066) OC-Guide (hardwareluxx.de)](https://www.hardwareluxx.de/community/f139/intel-skylake-x-sockel-2066-oc-guide-1172969.html)
 * [AMD Ryzen - RAM OC Community (computerbase.de)](https://www.computerbase.de/forum/threads/amd-ryzen-ram-oc-community.1829356/)
@@ -311,6 +311,7 @@
 ### AMD RAM OC programs
 * [Ryzen Timing Checker (techpowerup.com)](https://www.techpowerup.com/download/ryzen-timing-checker/)
 * [DRAM Calculator for Ryzen (techpowerup.com)](https://www.techpowerup.com/download/ryzen-dram-calculator/)
+* [ZenTiming](https://zentimings.protonrom.com/index.html)
 
 ### AMD based OC tutorials
 * [How To Increase TDP Of Ryzen Based Laptops (Ryzen 5 3500U, 2500U...) - Ryzen Controller](https://youtu.be/4ekZRwxFFGU)

@@ -13,7 +13,7 @@ The recommendations are totally unbiased and the listed hardware, is listed base
 * Hardware specifications
 * Community reviews
 * Price per performance
-* _Security aspect_
+* _Security aspect_ (_overall focus is performance but security should also not compromised_)
 * Overall customer support
 * Vendor specific tests are NOT allowed not substantial evidence (_because of course everyone claims to have the best/superior products_)
 
@@ -28,8 +28,8 @@ The recommendations are totally unbiased and the listed hardware, is listed base
   * [Against promotion/advertisement principles](#against-promotionadvertisement-principles)
 * [RAM](#ram)
     * [Helper pages](#helper-pages)
-      * [DDR4 Specifications](#ddr4-specifications)
-      * [Timings / MHz](#timings--mhz)
+    * [DDR4 Specifications](#ddr4-specifications)
+    * [Timings / MHz](#timings--mhz)
     * [16-GB DDR4-Kits (_for Intel and AMD_)](#16-gb-ddr4-kits-for-intel-and-amd)
     * [32-GB-DDR4-Kits (_for Intel and AMD_)](#32-gb-ddr4-kits-for-intel-and-amd)
     * [64-GB-DDR4-Kits (_for Intel and AMD_)](#64-gb-ddr4-kits-for-intel-and-amd)
@@ -174,6 +174,17 @@ For gamers which do not OC'ing their RAM:
 
 
 
+# Mice
+
+| Category                  |      Suggestion      |                           Specifications |
+| ------------------------- | :------------------: | ---------------------------------------: |
+| Optimal |    Glorious PC Gaming Race Model D    | PixArt PMW-3360,Lift-Off-Distance: 1,5 – 3,0 mm |
+| Optimal (alternative) |    Glorious PC Gaming Race Model D-    | PixArt PMW-3360,Lift-Off-Distance: Lift-Off-Distance: 0,7 – 2,0 mm |
+| Optimal (alternative) |  Logitech G502 HERO   | Logitech Hero 16K |
+| Optimal (alternative) |  Corsair Gaming M65 Pro RGB   | PixArt PMW 3360 |
+
+
+
 # Keyboard
 
 | Category         |             Suggestion             |                                                                                         Specifications |
@@ -254,9 +265,10 @@ Please keep in mind:
 | Middle                                    |               AMD Ryzen 5 3600               |                                     Intel Core i5-9400F |
 | Cheap middle                              |               Intel Core i5-10400F              |             // |
 | Cheap                               |               AMD Ryzen 3 3300X             |             The minimum if you want to get into gaming! |
-| iGPU                                      |          AMD Ryzen 5 1600 (12 nm)         |                                            ~ 80 / € 93€ |
-| HEDT                                      |         AMD Ryzen Threadripper 3960X         |                                               ~ 2.195 € |
-| HEDT alternative | Threadripper 3990X / 3970X  |
+| iGPU                                      |          AMD Ryzen 3 3200 G         |                                            ~81€  |
+| Minimum                                      |          Intel Core i3-9100F      |                                            ~66€  |
+| HEDT | AMD Ryzen Threadripper 3990X | | 
+
 
 
 # Sound ([DAC](https://www.gamecrate.com/gamers-perspective-sound-cards-and-dacs/10481))
@@ -290,12 +302,10 @@ Please keep in mind:
 * iGPU      = integrated graphic unit
 * *Creative Sound Blaster Z (_often advertised as "gamer sound card"_) is not recommended, while the hardware is overall okay and for most people fine the software and the driver are not _optimal_. "Creative Technology" has a [bad support history](https://danielkawakami.blogspot.com/2015/07/sb-x-fi-series-support-pack-34.html), which is not even mentioned on [Wikipedia](https://en.wikipedia.org/wiki/Creative_Technology), but in almost all [hardware boards](https://arstechnica.com/civis/viewtopic.php?f=6&t=242218).
 
-### Last Updated
-
-* `06.04.2020`
-
 
 ### Change log
+- 17.08.2020: Mice section added
+- 07.08.2020: CPU Chart July 2020
 - 06.07.2020: RAM Chart updated, added JDEC standards
 - 04.06.2020: CPU Chart updated
 - 06.04.2020: CPU chart updated
