@@ -24,6 +24,7 @@ The recommendations are totally unbiased and the listed hardware, is listed base
 * Biased persons are **NOT** permitted to submit something to the list. For example, an Corsair employee is not permitted to submit something (_even if he has as a private person another opinion or suggestion_).
 
 
+## Index
 * [Overview](#overview)
   * [Against promotion/advertisement principles](#against-promotionadvertisement-principles)
 * [RAM](#ram)
