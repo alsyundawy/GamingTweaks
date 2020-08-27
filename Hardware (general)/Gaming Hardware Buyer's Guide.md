@@ -292,8 +292,21 @@ Please keep in mind:
 | Alternative | Asus ZenWiFi AX/AC (XT8/CT8) | MU-MIMO (6,6 Gbit/s) |
 | Luxury  | Asus RT-AX89X | 2x10G-LAN, 8x antennas  |
 | Luxury alternative | |  |
-| Luxury alternative |  |  |  |
+| Luxury alternative |  |  | 
 
+
+
+
+# Gaming Monitors
+
+| Category                                  |                  Suggestion                  |                                   Info |
+| ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
+| Entry level option                 |       LG 27GK750F-B*          | // |
+| Alternative | Samsung C24FG73FQU* |
+| Luxury  | MSI Optix MPG27CQ2* | //  |
+| Luxury alternative | MSI Optix G24C |  |
+| Luxury alternative | Alienware AW2518H |  |  
+| Optimum | Asus ROG SWIFT PG259QN |  |  
 
 
 
@@ -304,6 +317,7 @@ Please keep in mind:
 
 
 ### Change log
+- 27.08.2020: Gaming Monitors added
 - 17.08.2020: Mice section added
 - 07.08.2020: CPU Chart July 2020
 - 06.07.2020: RAM Chart updated, added JDEC standards
