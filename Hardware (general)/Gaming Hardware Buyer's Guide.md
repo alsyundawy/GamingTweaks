@@ -301,12 +301,12 @@ Please keep in mind:
 
 | Category                                  |                  Suggestion                  |                                   Info |
 | ----------------------------------------- | :------------------------------------------: | ------------------------------------------------------: |
-| Entry level option                 |       LG 27GK750F-B*          | // |
-| Alternative | Samsung C24FG73FQU* |
-| Luxury  | MSI Optix MPG27CQ2* | //  |
-| Luxury alternative | MSI Optix G24C |  |
-| Luxury alternative | Alienware AW2518H |  |  
-| Optimum | Asus ROG SWIFT PG259QN |  |  
+| Entry level option                 |       LG 27GK750F-B          | 27", 240 Hz, 3.0 ms (14 ms Input lag), 380 cd/m², TN-Panel, Freesync |
+| Alternative | Samsung C24FG73FQU | 24", 144 Hz, 3,0 ms (13 ms Input lag), Up to 340 cd/m², VA-Panel, Freesync  |
+| Luxury  | MSI Optix MPG27CQ2 | 27", 144 Hz, 4,6 ms, (10,5 ms Input lag), up to 296 cd/m², VA-Panel, Freesync  |
+| Luxury alternative | MSI Optix G24C | 23,6", 144 Hz, 5,2 ms response time (11,6 ms Input lag), up to 236,8 cd/m², VA-Panel, Freesync (G-Sync compatible)  |
+| Luxury alternative | Alienware AW2518H | 24,5", 240 Hz, 2,3 ms, 16 ms, 447 cd/m², TN-Panel, G-Sync  |  
+| Optimum | Asus ROG SWIFT PG259QN (Alternatives: Acers Predator X25 & Alienware AW2521H) | 24,5, IPS-Panel, 400 cd/m², Ultra Low Motion Blur, G-Sync, 20 ms  |  
 
 
 
@@ -314,6 +314,7 @@ Please keep in mind:
 * HEDT      = High End Desktop
 * iGPU      = integrated graphic unit
 * *Creative Sound Blaster Z (_often advertised as "gamer sound card"_) is not recommended, while the hardware is overall okay and for most people fine the software and the driver are not _optimal_. "Creative Technology" has a [bad support history](https://danielkawakami.blogspot.com/2015/07/sb-x-fi-series-support-pack-34.html), which is not even mentioned on [Wikipedia](https://en.wikipedia.org/wiki/Creative_Technology), but in almost all [hardware boards](https://arstechnica.com/civis/viewtopic.php?f=6&t=242218).
+* Flickshots = A flickshot is where you quickly move your hand to the enemy position in an EXTREMLY short period of time and shooting/tagging them.
 
 
 ### Change log
