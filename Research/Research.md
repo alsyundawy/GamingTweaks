@@ -1,3 +1,4 @@
+## Table of Contents
 * [Meltdown/MDS/ZombieLoad Performance Impact (MUST READ!)](#meltdownmdszombieload-performance-impact-must-read)
 * [NVIDIA's FPS limiters (V1, V2 & V3) vs RTSS vs In-engine](#nvidias-fps-limiters-v1-v2--v3-vs-rtss-vs-in-engine)
 * [Hardware explained](#hardware-explained)
@@ -279,6 +280,7 @@
 
 ### Frametime capture and analysis tools
 * [CapFrameX (github.com)](https://github.com/DevTechProfile/CapFrameX)
+* [NVIDIA FrameView 1.1: Frame Benchmarking and Power Tool (nvidia.com)](https://www.nvidia.com/en-us/geforce/technologies/frameview/), [FrameView user's guide](https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/technologies/frameview/frameview-user-guide-1-1-web.pdf) & [GeForce GPU Power Primer](https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/technologies/frameview/Power_Primer.pdf)
 
 ### Controller Emulators (_for Windows_)
 * [DualShock 4 for Windows (DS4Windows) (github.com)](https://github.com/Ryochan7/DS4Windows)
