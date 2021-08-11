@@ -1,10 +1,39 @@
+* [How do I measure the overall OS performance?](#how-do-i-measure-the-overall-os-performance)
+* [OS timer resolution](#os-timer-resolution)
+  * [Application timings](#application-timings)
+* [(Disable) Fullscreen optimizations](#disable-fullscreen-optimizations)
+  * [Benefits](#benefits)
+  * [Cons & problems](#cons--problems)
+  * [Disabling FSO](#disabling-fso)
+* [Desktop Window Manager (dwm.exe)](#desktop-window-manager-dwmexe)
+  * [Windows Defender and Desktop Window Manager (dwm.exe)](#windows-defender-and-desktop-window-manager-dwmexe)
+* [Responsiveness and the OS impact](#responsiveness-and-the-os-impact)
+* [Choosing the "correct" Windows 10 Version](#choosing-the-correct-windows-10-version)
+* [Driver installation](#driver-installation)
+* [Reasons to avoid WUS Drivers](#reasons-to-avoid-wus-drivers)
+    * [Tools like Snappy Driver Installer & Co](#tools-like-snappy-driver-installer--co)
+* [Install AiO runtimes or repacks such as DirectX, NetFramework or Visual C++ Redistributable](#install-aio-runtimes-or-repacks-such-as-directx-netframework-or-visual-c-redistributable)
+* [Operating System (general tweaking advice)](#operating-system-general-tweaking-advice)
+  * [Windows 7 vs. Windows 10](#windows-7-vs-windows-10)
+  * [Windows 10 LTSB (Build 1607) Vs. LTSC (2019)](#windows-10-ltsb-build-1607-vs-ltsc-2019)
+* [Application performance impact](#application-performance-impact)
+  * [Fix Memory Issue before with Windows 10 Build 1607 (Anniversary Update)](#fix-memory-issue-before-with-windows-10-build-1607-anniversary-update)
+* [Task Scheduler & Anti-Telemetry script](#task-scheduler--anti-telemetry-script)
+* [Random stuttering](#random-stuttering)
+      * [**The following workaround is specifically for Windows 1703 >= 1803**](#the-following-workaround-is-specifically-for-windows-1703--1803)
+  * [Power Management](#power-management)
+  * [GameDVR](#gamedvr)
+  * [GameBarPresenceWriter.exe](#gamebarpresencewriterexe)
+  * [Windows 10 Memory Compression](#windows-10-memory-compression)
+* [Game Mode](#game-mode)
+
 ## How do I measure the overall OS performance?
 
-It is a difficlt question because there a lot of scenarios, hardware combinations & considerations to make. A [benchmark is maybe not reliable](https://www.gamersnexus.net/guides/3240-bench-theory-reliability-standard-deviation-of-game-benchmarks) and you mjust consider that every benchmark [contains margin of errors](https://www.eurogamer.net/articles/digitalfoundry-2018-the-trouble-with-pc-benchmark-modes) (which is normal). A synthetic benchmark basically spoken gives you an idea of how well a hardware can perform a given task but the best way to rely upon results is real world usage. Too many things can affect your gaming performance, from part variances within the same product, different test benches e.g. using different CPUs/Motherboards at different settings, different test environment (e.g. temperature), different drivers & settings and sometimes different software versions (patches of games or Windows versions e.g. Build 1809 vs 1903 (No Retpoline vs [Retpoline](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)#General_approaches)). That said do not use in-game [benchmarks](https://en.wikipedia.org/wiki/Benchmark_(computing)).
+It is a difficult question because there a lot of scenarios, hardware combinations & considerations to make. A [benchmark is maybe not reliable](https://www.gamersnexus.net/guides/3240-bench-theory-reliability-standard-deviation-of-game-benchmarks) and you must consider that every benchmark [contains margin of errors](https://www.eurogamer.net/articles/digitalfoundry-2018-the-trouble-with-pc-benchmark-modes) (which is normal). A synthetic benchmark basically spoken gives you an idea of how well a hardware can perform a given task but the best way to rely upon results is real world usage. Too many things can affect your gaming performance, from part variances within the same product, different test benches e.g. using different CPUs/Motherboards at different settings, different test environment (e.g. temperature), different drivers & settings and sometimes different software versions (patches of games or Windows versions e.g. Build 1809 vs 1903 (No Retpoline vs [Retpoline](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)#General_approaches)). That said do not use in-game [benchmarks](https://en.wikipedia.org/wiki/Benchmark_(computing)).
 
-I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-suite.com/) (it's an "real program benchmark") because it does not only benchmark [certain aspects](https://en.wikipedia.org/wiki/Benchmark_(computing)#Challenges) (Kernel, synthetic, component bench), it is also able to run acrosss multiple systems and checks security based parameters to see how the OS "scores". The test itself also includes parameters to show the margin of errors, so it's not an ordinary benchmark tool. it is well documented, open source and gets constantly updates. Keep in mind that you should run it multiple times to get an average overview, however those tools do not help if you have in-game problems because several games and their game engines might have several other issues (which no benchamrk can show you). I highly recommend that you run the suite, and than compare how well you favourite game runs in-game, then you have something _objective_ to test against.
+I usually use and recommend the [phoronix-test-suite](https://www.phoronix-test-suite.com/) (it's an "real program benchmark") because it does not only benchmark [certain aspects](https://en.wikipedia.org/wiki/Benchmark_(computing)#Challenges) (Kernel, synthetic, component bench), it is also able to run arosss multiple systems and checks security based parameters to see how the OS "scores". The test itself also includes parameters to show the margin of errors, so it's not an ordinary benchmark tool. it is well documented, open source and gets constantly updates. Keep in mind that you should run it multiple times to get an average overview, however those tools do not help if you have in-game problems because several games and their game engines might have several other issues (which no benchmark can show you). I highly recommend that you run the suite, and than compare how well you favourite game runs in-game, then you have something _objective_ to test against.
 
-[CapFrameX](https://github.com/DevTechProfile/CapFrameX) is a fantastic tool to identify frame drops or G-Sync/FreeSync related issues. The program is for beginners and professionals and can help to check what might causes lags or to get a overview of your hardware and how well it really performes in-game, since it supports DirectX and Vulkan API's it basically can analyze almost every application/game.
+[CapFrameX](https://github.com/DevTechProfile/CapFrameX) is a fantastic tool to identify frame drops or G-Sync/FreeSync related issues. The program is for beginners and professionals and can help to check what might causes lags or to get a overview of your hardware and how well it really performance in-game, since it supports DirectX and Vulkan APIs it basically can analyse almost every application/game.
 
 
 ## OS timer resolution
@@ -32,14 +61,14 @@ Fullscreen optimization (the option) was first introduced in Windows 10 Build 16
 ### Disabling FSO
 
 While the ability to _system-wide_ disable fullscreen optimizations for all the executables was removed in Windows 10 v1803 (April Update), you can do so on a _per-game executable basis_ (valid on 1809 and 1903 too): navigate to the game, `Right-click on the executable`, select `Properties` and click on the `Compatibility` tab, check `Disable fullscreen optimizations` box then hit `OK`.
-> There is an unofficial script avbl. to [automatically "Disable Fullscreen Optimizations"](https://pastebin.com/1twn8geB) based on the user choice too. This works on Windows 10 Build 1803 up to Windows Build 1903 too. Some people reporting that it will fix in-game stuttering.. 
+> There is an unofficial script available to [automatically "Disable Fullscreen Optimizations"](https://pastebin.com/1twn8geB) based on the user choice too. This works on Windows 10 Build 1803 up to Windows Build 1903 too. Some people reporting that it will fix in-game stuttering..
 
 
 ## Desktop Window Manager (dwm.exe)
 
 [DWM](https://en.wikipedia.org/wiki/Desktop_Window_Manager) (also known as Desktop Compositing Engine or DCE) has in general an _huge_ impact on the OS/application performance, it usually _consumes a lot_ CPU "power". It exists since Windows Vista and is a part of the Windows OS and since Windows Vista it uses [WDDM](https://en.wikipedia.org/wiki/Windows_Display_Driver_Model) to share the surface with DWM. In earlier versions it was possible to "disable" DWM, however this is these days not so easy because the process gets restarted every time WinLogon.exe was started.
 
-**Disabling DWM is not recommended!** But if you want to, you still could do that, [even under Windows 10](https://gist.github.com/Biswa96/1b3b60715f16f18cb71bfcc11f454245). The boost is definitly there, however it breaks a lot of other WDDM functions.
+**Disabling DWM is not recommended!** But if you want to, you still could do that, [even under Windows 10](https://github.com/Biswa96/Junkyard/blob/master/c/KillDwm.c). The boost is definitely there, however it breaks a lot of other WDDM functions.
 
 
 ### Windows Defender and Desktop Window Manager (dwm.exe)
@@ -51,6 +80,7 @@ While the ability to _system-wide_ disable fullscreen optimizations for all the 
 The following things should be as low as possible:
 
 * Audio latency
+* Compression
 * Ping/Network latency (use the ping command to quickly check your average latency which might be different [depending on several factors])
 * DPC Latency (use [LatencyMon](https://www.resplendence.com/latencymon) to check it)
 * _Overall network latency_ (this can't be tested easily because it is depening on several factors)
@@ -78,14 +108,14 @@ Edu./Ent. or LTSC versions have no pre-installed apps OR/AND you can take contro
 
 ## Driver installation
 
-The driver installation order does matter and might help to solve or prevent some problems.
+The driver installation order _does matter_ and might help to solve or prevent some problems.
 * OS
-* Chipset (reboot)
+* Chipset (reboot) - You do not need to "update" regularly your chipset driver, just install the missing driver (inf) component. There is no benefit in "updating" the existent driver.
 * USB (e.g. ASMedia Technology Inc.)
 * Audio/GPU (the order doesn't matter)
 * Monitor/keyboard/mouse etc.
 
-Why is the specific order needed? Some driver(s) and their installers having troubles detecting your current hardware if e.g. the chipset isn't installed first, other programs simply conflicting with the IRQ order (older mobos).
+Why is the specific order needed? Some driver(s) and their installers having troubles detecting your current hardware if e.g. the chipset isn't installed first, other programs simply conflicting with the IRQ order (older motherboards).
 
 It's not necessary to re-install the entire OS in case you made a mistake, I suggest you use [DDU](https://www.wagnardsoft.com/) in combination with [RAPR](https://github.com/lostindark/DriverStoreExplorer) in order to get rid of _possible_ leftovers and old/redundant drivers in Windows driver store folder. at this point I also suggest to create a "Driver" folder on another HDD/SSD/USB drive and place all drivers you got in there. It's maybe the first time a bit more effort to collect all of them but it helps to update the drivers + keeps on eye on the current installed ones and possible (in case you store the last two versions) you have a revision in case the newer drivers are problematic.
 
@@ -103,7 +133,7 @@ I recommend:
 
 #### Tools like Snappy Driver Installer & Co
 
-Snappy Driver ([Origin](https://www.snappy-driver-installer.org/) - the version which is open-source and without ads) can help you in case your OEM doesn't provide a manual to identify your current hardware, however in my experience such tools should be avoided because they _maybe_ install or identify the wrong hardware which might only ends-up with more problems and they could contain ads or are infected with malware (since they are a huge target because driver based malware is harder to remove/spot and the installer might execute the installation process under administrative rights to gain access). My _advice_ is (even if it's more effort) to [manually identify the installed hardware](https://www.windowscentral.com/how-check-your-computer-full-specifications-windows-10) create ther driver folder and download/verify the driver from trusted websites sich as Station-Drivers & Win-RAID.
+Snappy Driver ([Origin](https://www.snappy-driver-installer.org/) - the version which is open-source and without ads) can help you in case your OEM doesn't provide a manual to identify your current hardware, however in my experience such tools should be avoided because they _maybe_ install or identify the wrong hardware which might only ends-up with more problems and they could contain ads or are infected with malware (since they are a huge target because driver based malware is harder to remove/spot and the installer might execute the installation process under administrative rights to gain access). My _advice_ is (even if it's more effort) to [manually identify the installed hardware](https://www.windowscentral.com/how-check-your-computer-full-specifications-windows-10) create their driver folder and download/verify the driver from trusted websites such as [Station-Drivers](https://www.station-drivers.com/index.php?lang=en) & [Win-RAID](https://www.win-raid.com/).
 
 
 ## Install AiO runtimes or repacks such as DirectX, NetFramework or Visual C++ Redistributable
@@ -146,13 +176,15 @@ Some applications and their integrated drivers from external devices like [a mou
 
 ### Fix Memory Issue before with Windows 10 Build 1607 (Anniversary Update)
 
+This is **not needed** since 1809+ and was only a workaround.
+
 * Download [EmptyStandbyList](https://wj32.org/wp/software/empty-standby-list/) and put it under e.g. C:\ (ensure you don't move this file)
 * Right click > Properties and select 'Run as Admin' under compatibility.
 * Open your Task Scheduler > Create Task (on the far right).
 * General Tab (give it a name, doesn't matter which one!). Under security options > Change user or group > Advanced > Find Now > go down and choose SYSTEM (important to make it run silently in the background). Tick 'Run with highest privileges' and 'Hidden' at the bottom. You can find an example [here](https://stackoverflow.com/questions/6568736/how-do-i-set-a-windows-scheduled-task-to-run-in-the-background).
 * Click Triggers Tab > New > On a schedule > One Time. Tick repeat task every 5 minutes (possibly excessive but it causes no issues). Also choose 'for the duration of: indefinitely'
 * Actions tab > Start A program > Point to the EmptyStandbyList.exe file.
-* The Standby memory is automatically cleared every 5 mins.
+* The Standby memory is automatically cleared every 5 minutes.
 
 
 Task Scheduler & Anti-Telemetry script
@@ -224,7 +256,7 @@ TIMEOUT /T 5
 ```
 
 
-To ensure the blocking settings are always set eg. after an upgrade/KB update, you can create a schedule task to run the script at logon as example: 
+To ensure the blocking settings are always set eg. after an upgrade/KB update, you can create a schedule task to run the script at logon as example:
 
 1. Copy the above mentioned script into `C:\Windows` and then open command prompt as administrator and execute:
 2. `SCHTASKS /Create /F /RU "SYSTEM" /RL HIGHEST /SC ONSTART /TN BlockW10 /TR "cmd /c %windir%\antitelemetry.cmd"`
@@ -244,7 +276,7 @@ Some games might have random stutter because Windows tries to free some resource
 Set your power setting to maximum performance (it's not needed to use an "ultimate" power-plan) if you graphic card driver has an 'maximum performance' settings enable it too, this will ensure that the GPU uses it's full potential.
 
 
-### GameDVR + GameBarPresenceWriter
+### GameDVR
 
 Whenever you stream games via OBS Studio, make sure you disable GameDVR, it is also a smart advice to in general stay away from it since most applications & games are simply not optimized for it - this doesn't have anything to do with that MS _fucked something up_ it's more that most older games (and even several new ones) are not adopted to get any benefit in such _low-latency_ mode.
 
@@ -293,12 +325,49 @@ Windows Registry Editor Version 5.00
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
   00,00,00,00,00,00,00,00,00,00
-
-; Disable GameBarPresenceWriter.exe (needs same like PowerShell removal higher rights) - Do not use it, it's optional!
-;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter]
-;"ActivationType"=dword:00000001
-;"CLSID"="{cbfd414c-5037-3c98-a85e-a5e7ca509cfc}"
-;"Server"="Windows.Gaming.GameBar.Internal.PresenceWriterServer"
-; "TrustLevel"=dword:00000000
 ```
 
+Since Windows 1803+ you don't need to disable GameDVR anymore, **only in case you have game specific issues!**, in such case use the provided workaround, or better report it to the game developer studio to address it directly.
+
+
+### GameBarPresenceWriter.exe
+
+GameBarPresenceWriter.exe is a part of the XBox Game Bar function and typically runs in the background. The process can't be killed because it will automatically be restarted. You can use [this script](https://github.com/CHEF-KOCH/GamingTweaks/tree/master/Tools/GameBarPresenceWriter) to kill it once and for all.
+
+
+### Windows 10 Memory Compression
+
+[Memory Compression](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)) in Windows 10 was introduced with [Build 10525](https://blogs.windows.com/windowsexperience/2015/08/18/announcing-windows-10-insider-preview-build-10525/#2Vhj8QCPv3g4Z372.97). An in-depth explanation is given over [here](https://channel9.msdn.com/Blogs/Seth-Juarez/Memory-Compression-in-Windows-10-RTM).
+
+Example:
+If you had 8 GB of RAM and applications had, let's say 9 GB of stuff to store in that RAM, at least 1 GB would have to be “paged out” and stored in the page file on your computer’s disk. Accessing data in the page file is very slow compared to RAM. Overall said, it all comes down to the amount of RAM. In theory you should not notice if compression is enabled or disabled on a system with 16+ GB, the sad truth is that some applications and games are not well "optimized" and disabling the compression algorithm might result in an overall _smoother_ application/game behaviour, especially if you run many UWP apps in the background.
+
+
+Open a PowerShell with Administrator privileges then, run the command `Disable-MMAgent -MemoryCompression` and reboot. This disables the compression. To enable it later again, run again PowerShell as admin and run the `Enable-MMAgent -MemoryCompression` command. Some tasks managers can show memory compression information like Windows own task-manager, [ProcessHacker](https://wj32.org/processhacker/forums/viewtopic.php?t=2421) and [Process Explorer](https://www.howtogeek.com/319933/what-is-memory-compression-in-windows-10/).
+
+For more details, see [this post](https://github.com/CHEF-KOCH/GamingTweaks/issues/26).
+
+![Controlling Memory Compression](https://s19.directupload.net/images/191127/fdekunh3.png)
+
+
+## Game Mode
+
+In Windows 10 2004 (20H1) you might can suffer from random stuttering if Game Mode is enabled, this basically affects [specific game engines](https://www.techpowerup.com/266744/windows-10-game-mode-negatively-impacts-call-of-duty-warzone-performance) (which means only some Games are affected). **IT IS NOT NEEDED** to import/change it if you do not suffer from game stutters, [Microsoft is aware of the issue](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-2004) and will most likely fix this over the next several "Patch-Tuesdays".
+
+You can this via elevated CMD/PowerShell:
+```ps
+reg add "HKCU\Software\Microsoft\GameBar" /v "AllowAutoGameMode" /t REG_DWORD /d "0" /f
+reg add "HKCU\Software\Microsoft\GameBar" /v "AutoGameModeEnabled" /t REG_DWORD /d "0" /f
+```
+
+OR
+
+```
+Windows Registry Editor Version 5.00
+
+; The old fashion way via Registry import.
+
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
+"AllowAutoGameMode"=dword:00000000
+"AutoGameModeEnabled"=dword:00000000
+```

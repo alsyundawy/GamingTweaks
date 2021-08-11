@@ -1,10 +1,26 @@
+* [SSD/NVMe driver performance](#ssdnvme-driver-performance)
+* [SSD](#ssd)
+* [TRIM](#trim)
+* [Disk Defragmentation](#disk-defragmentation)
+* [Enable Write Caching for SSDs](#enable-write-caching-for-ssds)
+* [Write-cache Buffer Flushing](#write-cache-buffer-flushing)
+* [Disable Prefetch and Superfetch](#disable-prefetch-and-superfetch)
+* [Optimize or Disable Page File for SSDs](#optimize-or-disable-page-file-for-ssds)
+* [Update Drivers and Firmware](#update-drivers-and-firmware)
+
+### SSD/NVMe driver performance
+
+[Samsung](https://www.samsung.com/semiconductor/minisite/ssd/download/tools/) as well as others vendors provide their own drivers for e.g. NVMe. The question is if Samsung drivers are _better_ than the once provided by Microsoft itself (_stock drivers_). The answer is, [no, there is no benefit in installing third-party drivers from Samung & Co anymore](https://twitter.com/KoroushGhazi/status/1242717122490298368).
+
+The problem seems that after specific KB or an in-place upgrade MS replaces automatically (without that you get a noticie or warning) the third-party driver automatically. The drivers itself (MS vs. Samsung) are performance wise almost identical, MS recently showed (_based on user benchmarks_) that they are even better than the Samsung provided ones. We can assume that Samsung works close with MS together, since their drivers are typically never offered by Windows Update (_you must manually download them from the Samsung page and install them_).
+
 ### SSD
 
 Setting `fsutil behavior set disablelastaccess 1` still needs to be set manually. There is research on this available [here](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search).
 
 ### TRIM
 
-Since Windows 10, the OS usually checks the [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) status on his own, but in order to verify it simply run `fsutil behavior query DisableDeleteNotify`. If TRIM is running it will return `DisableDeleteNotify=0` or `DisableDeleteNotify=1` if TRIM is not functioning.
+Since Windows 10, the OS usually checks the [TRIM](https://en.wikipedia.org/wiki/Trim_(computing)) status on his own, but in order to verify it simply run `fsutil behavior query DisableDeleteNotify`. If TRIM is functional, `DisableDeleteNotify=0` will be returned; otherwise, `DisableDeleteNotify=1` will be returned.
 
 ### Disk Defragmentation
 

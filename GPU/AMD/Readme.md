@@ -1,3 +1,7 @@
+* [FreeSync Gaming on AMD](#freesync-gaming-on-amd)
+* [AMD (Image Quality [IQ] improvements)](#amd-image-quality-iq-improvements)
+* [AMD specific bug (caused by Windows) which causes massive performance issue](#amd-specific-bug-caused-by-windows-which-causes-massive-performance-issue)
+
 ### FreeSync Gaming on AMD
 
 An official guide is available over [here](https://www.amd.com/en/support/kb/faq/dh-019).
@@ -31,7 +35,7 @@ CN response time:
 
 ### AMD specific bug (caused by Windows) which causes massive performance issue
 
-According to [LeveloneTechs](https://level1techs.com/article/unlocking-2990wx-less-numa-aware-apps) [Video](https://www.youtube.com/watch?v=M2LOMTpCtLA&feature=youtu.be) Windows has a kernel issue which prevents Epyc/Threadripper (Zen 2) CPU's to get the maximum performance out of all cores. There is currently no fix for that but as a workaround you can use [Coreprio](https://bitsum.com/portfolio/coreprio/). 
+According to [LeveloneTechs](https://level1techs.com/article/unlocking-2990wx-less-numa-aware-apps) [Video](https://www.youtube.com/watch?v=M2LOMTpCtLA&feature=youtu.be) Windows has a kernel issue which prevents Epyc/Threadripper (Zen 2) CPU's to get the maximum performance out of all cores. There is currently no fix for that but as a workaround you can use [Coreprio](https://bitsum.com/portfolio/coreprio/).
 
 
-Microsoft & AMD needs to inspect, verify and maybe fix it. 
+Microsoft & AMD needs to inspect, verify and maybe fix it.
